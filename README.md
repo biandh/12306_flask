@@ -9,6 +9,7 @@
       1.1 常规站-站查询
 
        <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="400" height="200"/>
+
        <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg" width="400" height="200"/>
 
 
@@ -18,12 +19,14 @@
 
       1.3 换乘查询(目前只支持1次换乘)
 
+      注意：越站和换乘只能选择一个
+
    2. 火车票购票
 
       与之前程序相同，修复了12306更新后地址不能用问题
 
-      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg" width="400" height="200"/>
-      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/5.jpg" width="400" height="200"/>
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg" width="300" height="200"/>
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/5.jpg" width="450" height="200"/>
 
 
 思路：先查是否有票，有则进入官网购买，无则进行抢票
@@ -34,5 +37,7 @@
    1. cd 12306_flask-master/flask_app
    2. python app.py
    3. 网页输入: http://127.0.0.1:5000
+
+希望大家都能买到回家过年的票~~~~~
 
 
