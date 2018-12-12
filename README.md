@@ -8,9 +8,9 @@
 
       1.1 常规站-站查询
 
-       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="300" height="150"/>
+       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="300" height="120"/>
        <br/>
-       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg" width="300" height="120"/>
+       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg" width="300" height="150"/>
 
 
       1.2 某个车次越站乘车查询
