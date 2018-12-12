@@ -8,13 +8,13 @@
 
       1.1 常规站-站查询
 
-       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="375" height="200"/>
+       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="400" height="200"/>
+       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg" width="400" height="200"/>
 
-       ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg)
 
       1.2 某个车次越站乘车查询
 
-      ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/3.jpg)
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/3.jpg" width="400" height="200"/>
 
       1.3 换乘查询(目前只支持1次换乘)
 
@@ -22,9 +22,9 @@
 
       与之前程序相同，修复了12306更新后地址不能用问题
 
-      ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg)
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg" width="400" height="200"/>
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/5.jpg" width="400" height="200"/>
 
-      ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/5.jpg)
 
 思路：先查是否有票，有则进入官网购买，无则进行抢票
 
