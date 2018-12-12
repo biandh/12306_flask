@@ -8,7 +8,7 @@
 
       1.1 常规站-站查询
 
-       ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg)
+       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="375" height="200"/>
 
        ![image](https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg)
 
