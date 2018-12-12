@@ -9,7 +9,7 @@
       1.1 常规站-站查询
 
        <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/1.jpg" width="300" height="150"/>
--
+       <br/>
        <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/2.jpg" width="300" height="120"/>
 
 
@@ -26,7 +26,7 @@
       与之前程序相同，修复了12306更新后地址不能用问题
 
       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg" width="300" height="200"/>
--
+      <br/>
       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/5.jpg" width="300" height="100"/>
 
 
