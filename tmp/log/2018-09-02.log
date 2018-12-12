@@ -1,0 +1,595 @@
+[2018-09-02 14:44:13,797][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:13,971][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 14:44:13,972][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,105,46,184,45', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:14,232][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 14:44:34,101][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:34,314][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 14:44:34,315][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '184,45,115,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:34,517][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 14:44:34,517][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:34,702][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"_IeZ97Djd0Cl8Yk5k__3HUDzNTkXOAZPDKn7Dwdqb2b0"} (logger.py:61)
+[2018-09-02 14:44:34,703][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:34,880][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"HZbtGcGqhY5sZAlbcv-qWRdGOuz8zRRR04EaBAbcb2b0"} (logger.py:61)
+[2018-09-02 14:44:34,881][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'HZbtGcGqhY5sZAlbcv-qWRdGOuz8zRRR04EaBAbcb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:35,069][    INFO] --- 出参：{"apptk":"HZbtGcGqhY5sZAlbcv-qWRdGOuz8zRRR04EaBAbcb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 14:44:35,069][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:44:35,236][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 14:57:28,031][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:28,400][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 14:57:28,402][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,105,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:28,668][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 14:57:38,092][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:38,294][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 14:57:38,294][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,105,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:38,551][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 14:57:54,618][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:54,860][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 14:57:54,861][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:55,086][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 14:57:55,086][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:55,355][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"7D3IaNF6HgdRmZw_mtdtsmomC3_BTZAPJ47usQafb2b0"} (logger.py:61)
+[2018-09-02 14:57:55,355][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:55,633][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"pBTDs3fECsmOayt1wkETXdA4lc--mFkQcGziuAsdb2b0"} (logger.py:61)
+[2018-09-02 14:57:55,633][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'pBTDs3fECsmOayt1wkETXdA4lc--mFkQcGziuAsdb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:57:55,887][    INFO] --- 出参：{"apptk":"pBTDs3fECsmOayt1wkETXdA4lc--mFkQcGziuAsdb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 14:58:05,018][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 14:58:05,271][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:03:52,938][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:03:55,532][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:11:44,520][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:44,758][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:11:44,764][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:44,964][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 15:11:44,964][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:45,173][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Ovvfu08r2NwmG4Ix9OLDOn0mAtlqM-5NO30WFQ45b2b0"} (logger.py:61)
+[2018-09-02 15:11:45,173][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:45,370][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"ez1-HAhWho3IVW4B6tx0GL-u5r0uC5OVZ_ATQA36b2b0"} (logger.py:61)
+[2018-09-02 15:11:45,371][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'ez1-HAhWho3IVW4B6tx0GL-u5r0uC5OVZ_ATQA36b2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:45,598][    INFO] --- 出参：{"apptk":"ez1-HAhWho3IVW4B6tx0GL-u5r0uC5OVZ_ATQA36b2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 15:11:45,598][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:11:45,798][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:13:00,306][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:00,514][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:13:00,515][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,105,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:00,718][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 15:13:00,719][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:00,917][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"YSogSfz9_pdP4-9_JGFXKHHwIS8Y4L4wAv_hlgijb1b0"} (logger.py:61)
+[2018-09-02 15:13:00,918][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:01,103][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"ZdMhz3KEuXw2Xr6wu21XMhZTP5360oF2tkAVTAgab1b0"} (logger.py:61)
+[2018-09-02 15:13:01,104][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'ZdMhz3KEuXw2Xr6wu21XMhZTP5360oF2tkAVTAgab1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:01,292][    INFO] --- 出参：{"apptk":"ZdMhz3KEuXw2Xr6wu21XMhZTP5360oF2tkAVTAgab1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 15:13:01,292][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:13:01,475][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:14:15,930][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:16,116][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:14:16,117][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '184,45,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:16,425][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 15:14:16,426][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:16,675][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"ioMTNaP9yJXXTF1v-qylAr0cRvHrA_MR40NkvQweb2b0"} (logger.py:61)
+[2018-09-02 15:14:16,675][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:16,916][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Q7XdDYfGl8oad8NCTbSFQgkIn8_7-CiD6_G6uQsdb2b0"} (logger.py:61)
+[2018-09-02 15:14:16,918][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Q7XdDYfGl8oad8NCTbSFQgkIn8_7-CiD6_G6uQsdb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:17,143][    INFO] --- 出参：{"apptk":"Q7XdDYfGl8oad8NCTbSFQgkIn8_7-CiD6_G6uQsdb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 15:14:17,144][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:14:17,335][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:15:41,884][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:15:42,068][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:15:42,071][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '184,45', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:15:42,259][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:15:51,958][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:15:52,144][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:15:52,144][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:15:52,352][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:16:07,991][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:08,211][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:16:08,213][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:08,393][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:16:26,371][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:26,638][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:16:26,639][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '117,36,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:26,916][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:16:43,459][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:43,654][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:16:43,655][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,256,48,117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:43,865][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:16:53,710][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:53,895][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:16:53,896][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:16:54,110][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 15:17:05,292][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:05,486][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:17:05,487][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:05,671][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 15:17:05,672][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:05,877][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"6MUl7EvW1hWFPWVYk26fnrDD_unPkpmBQaeuOQnxb1b0"} (logger.py:61)
+[2018-09-02 15:17:05,877][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:06,074][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"oNoTu_02yQ7cd8kFJfUd6UaI4JvBH8cdQiOiQwrwb1b0"} (logger.py:61)
+[2018-09-02 15:17:06,074][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'oNoTu_02yQ7cd8kFJfUd6UaI4JvBH8cdQiOiQwrwb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:06,289][    INFO] --- 出参：{"apptk":"oNoTu_02yQ7cd8kFJfUd6UaI4JvBH8cdQiOiQwrwb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 15:17:06,290][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:06,465][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:17:53,191][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:53,419][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 15:17:53,423][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:53,663][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 15:17:53,663][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:53,903][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"cGAC3-IeZcftXJ2_7KOsUT0KJXdgnpuSOYDSDQweb2b0"} (logger.py:61)
+[2018-09-02 15:17:53,905][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:54,094][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"JNzN8ZwARW4rEtQtLBkiBeKbNzZKTmTdDC9MxAqrb2b0"} (logger.py:61)
+[2018-09-02 15:17:54,095][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'JNzN8ZwARW4rEtQtLBkiBeKbNzZKTmTdDC9MxAqrb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:54,317][    INFO] --- 出参：{"apptk":"JNzN8ZwARW4rEtQtLBkiBeKbNzZKTmTdDC9MxAqrb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 15:17:54,317][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 15:17:54,618][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 15:22:15,581][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 15:22:16,272][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":false,"exMsg":"用户未登录","noLogin":"true","normal_passengers":null,"dj_passengers":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:40:38,460][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:38,645][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 17:40:38,647][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:38,846][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-09-02 17:40:48,753][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:49,067][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 17:40:49,068][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:49,383][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 17:40:49,383][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:49,707][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Yq941g6jbsXLrin7v4kliceRcBvf-9Amlbj1jAzib1b0"} (logger.py:61)
+[2018-09-02 17:40:49,708][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:49,891][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"20x41PxUjk1_l41vvIhOkz7lxmgPrNjhVp_Opg45b1b0"} (logger.py:61)
+[2018-09-02 17:40:49,891][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'20x41PxUjk1_l41vvIhOkz7lxmgPrNjhVp_Opg45b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:50,088][    INFO] --- 出参：{"apptk":"20x41PxUjk1_l41vvIhOkz7lxmgPrNjhVp_Opg45b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 17:40:50,089][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:40:50,262][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:12,846][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 17:41:13,827][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:32,257][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'N4711EaRcPCx8GkhZYE7nkrSHV6uyfgR1EhfqlV067u/wFIaxp4gfeMYtI84PGsKOaw8nRw+k1dx\n7Ygs4fZ8LIQTY1a/ETJIck6PS2nyNm5QRW0/VUMpovmBbj4QktfBlN9w2joGiei/Yqa20XOukC+s\nQ3ybAAA47G1uu/UCWlqlxMQE41cDEGysvIKlnYhoIxrEuuqLlwMEn4ff+NTfq21M+1KWJy8Qcbal\nDNray5yzwpbLbmBmW/RpwGSXYa3/Ih23S7DXSg8='), ('train_date', '2018-09-15'), ('back_train_date', '2018-09-02'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', 'SZQ'), ('query_to_station_name', 'GZQ')]
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:41:32,532][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"N","messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:33,699][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('passengerTicketStr', u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N'), ('oldPassengerStr', u'\u535e\u4e1c\u6d77,1,342201199012057214,1_'), ('REPEAT_SUBMIT_TOKEN', 'e1bb3412e634731ef7580413febb2ad5'), ('randCode', ''), ('cancel_flag', 2), ('bed_level_order_num', '000000000000000000000000000000'), ('tour_flag', 'dc'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:41:34,033][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"ifShowPassCode":"N","canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"O9M","isCanChooseMid":"N","ifShowPassCodeTime":"1513","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:34,043][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Sat Sep 015 2018 00:00:00 GMT+0800 (\xe4\xb8\xad\xe5\x9b\xbd\xe6\xa0\x87\xe5\x87\x86\xe6\x97\xb6\xe9\x97\xb4)',)), ('train_no', (u'6i000G650404',)), ('stationTrainCode', (u'G6504',)), ('seatType', ('O',)), ('fromStationTelecode', (u'NZQ',)), ('toStationTelecode', (u'IZQ',)), ('leftTicket', (u'f%2FFc60w2N4bs5VUgNzUoz8HsSqUOvtMY0DQzITR53iqyXaG0mYy6xX3Id%2F8%3D',)), ('purpose_codes', (u'00',)), ('train_location', (u'Q9',)), ('REPEAT_SUBMIT_TOKEN', ('e1bb3412e634731ef7580413febb2ad5',))])
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:41:34,242][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"1","ticket":"420,0","op_2":"false","countT":"0","op_1":"false"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:35,759][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'roomType': '00', 'oldPassengerStr': u'\u535e\u4e1c\u6d77,1,342201199012057214,1_', 'whatsSelect': 1, '_json_at': '', 'train_location': u'Q9', 'leftTicketStr': u'f%2FFc60w2N4bs5VUgNzUoz8HsSqUOvtMY0DQzITR53iqyXaG0mYy6xX3Id%2F8%3D', 'randCode': '', 'passengerTicketStr': u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N', 'seatDetailType': '', 'dwAll': 'N', 'REPEAT_SUBMIT_TOKEN': 'e1bb3412e634731ef7580413febb2ad5', 'choose_seats': '', 'purpose_codes': u'00', 'key_check_isChange': u'FACF63BCABF617AA7675C9476CD7B813B52C1B1C415D7324715C18D9'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 17:41:36,112][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:36,112][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1535881296113&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-09-02 17:41:36,310][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6441953056385522400,"waitCount":1,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 17:41:38,314][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1535881298314&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-09-02 17:41:38,497][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6441953056385522400,"waitCount":0,"tourFlag":"dc","orderId":"E438073220"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:04:14,964][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:05:22,511][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:06:01,858][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46,184,45,42,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:06:13,444][    INFO] --- 出参：{"result_message":"验证码已经过期","result_code":"7"} (logger.py:61)
+[2018-09-02 18:07:13,124][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:07:13,481][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:07:15,559][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '181,114,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:07:15,756][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 18:07:54,196][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:07:54,646][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"QTgOAaF5M1qfgb3XdiivyuQnENTF68Eal0hz7Q27b1b0"} (logger.py:61)
+[2018-09-02 18:07:54,647][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:07:54,832][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"kK3ZgvR6l2YdemE71aTF0AhFf4o55O03FhAeSAafb1b0"} (logger.py:61)
+[2018-09-02 18:08:32,939][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'kK3ZgvR6l2YdemE71aTF0AhFf4o55O03FhAeSAafb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:08:33,455][    INFO] --- 出参：{"apptk":"kK3ZgvR6l2YdemE71aTF0AhFf4o55O03FhAeSAafb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 18:09:28,558][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:09:29,054][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:20:06,999][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 18:20:07,456][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:23:09,773][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'dkIW+3pdfowR72ju/853G4cedQw4zMGgRmloE3+mkvky/9NEcKXROsdEBcw4mIwK2p5dCjew6o9U\nId3o7Qj/QJR3HU6RfdieXNwFC7Ck5uFZT/5VLz4PaL2lmf7SkFa9KvZ9ttJ7YUzm9kOOmVzZLsPk\ntcPiIeHLmGexJWZwdJpCSrB48w+4cj+VGYMa7U5yuaTG3FHpHcdygItenyqGeCDj8+GSptZ16uYr\nRe+xWlbW+dAbGDAh07IsgzHydQ/PoX+/E0Noh90='), ('train_date', '2018-09-15'), ('back_train_date', '2018-09-02'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', 'SZQ'), ('query_to_station_name', 'GZQ')]
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:23:10,181][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":false,"httpstatus":200,"messages":["车票信息已过期，请重新查询最新车票信息"],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:24:50,840][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:51,165][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:24:51,165][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:51,369][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 18:24:51,369][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:51,579][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"-r_1eSm_O-dnGplKutDN0Cjo_Tar5IG6GaLmfAqrb1b0"} (logger.py:61)
+[2018-09-02 18:24:51,579][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:51,759][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"7kZcpI6gHzInvk1nfE5jlD4nCeDQs2JOXFaRBAsdb1b0"} (logger.py:61)
+[2018-09-02 18:24:51,759][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'7kZcpI6gHzInvk1nfE5jlD4nCeDQs2JOXFaRBAsdb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:51,954][    INFO] --- 出参：{"apptk":"7kZcpI6gHzInvk1nfE5jlD4nCeDQs2JOXFaRBAsdb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 18:24:51,955][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:24:52,147][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:26:31,565][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 18:26:34,700][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:27:30,775][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:31,114][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:27:31,114][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:31,298][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-09-02 18:27:44,751][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:45,140][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:27:45,140][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:45,455][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 18:27:45,456][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:45,782][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"PR2PuJI72boNWF1rZ_WYKgbMavINrTLhgnTjPQ92b1b0"} (logger.py:61)
+[2018-09-02 18:27:45,783][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:45,969][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"7X9ratrQcWCbR6BIPIB0Q1TKBJFGK3M8GMqx1gkob1b0"} (logger.py:61)
+[2018-09-02 18:27:45,969][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'7X9ratrQcWCbR6BIPIB0Q1TKBJFGK3M8GMqx1gkob1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:46,377][    INFO] --- 出参：{"apptk":"7X9ratrQcWCbR6BIPIB0Q1TKBJFGK3M8GMqx1gkob1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 18:27:46,378][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:27:46,563][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:29:25,348][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 18:30:16,529][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:35:01,897][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:02,387][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:35:02,388][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,256,48', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:02,827][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 18:35:02,827][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:03,209][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"DurK-0lhCOl91rFoDGwZDYijTTBH8_OAj6rJYQubb1b0"} (logger.py:61)
+[2018-09-02 18:35:03,209][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:03,632][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"34AuuqiJ87bXdGg6E1qCqUEd8cO_XeuH94KwNw45b1b0"} (logger.py:61)
+[2018-09-02 18:35:03,632][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'34AuuqiJ87bXdGg6E1qCqUEd8cO_XeuH94KwNw45b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:03,836][    INFO] --- 出参：{"apptk":"34AuuqiJ87bXdGg6E1qCqUEd8cO_XeuH94KwNw45b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 18:35:03,836][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:35:04,347][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:35:08,389][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 18:35:08,812][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:36:08,510][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:08,949][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:36:08,950][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:09,143][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-09-02 18:36:16,946][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:17,275][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-09-02 18:36:17,275][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:17,590][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-09-02 18:36:17,591][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:17,958][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"pHK2Iyrm0bxIlyJfB6sYoHDQmCPf_4WdGJBNGQ45b1b0"} (logger.py:61)
+[2018-09-02 18:36:17,959][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:18,312][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"jebbK0IMeTzwXaN0vjYr6VPcwwu8qS2ZmNx5MA64b1b0"} (logger.py:61)
+[2018-09-02 18:36:18,312][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'jebbK0IMeTzwXaN0vjYr6VPcwwu8qS2ZmNx5MA64b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:18,511][    INFO] --- 出参：{"apptk":"jebbK0IMeTzwXaN0vjYr6VPcwwu8qS2ZmNx5MA64b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-09-02 18:36:18,511][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-09-02 18:36:18,695][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-09-02 18:36:19,111][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-09-02 18:36:19,469][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0"},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1"},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2"},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3"},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4"},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5"},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6"},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7"},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8"},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9"},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10"},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11"},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12"},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"二代身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13"}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)

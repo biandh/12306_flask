@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询结果</title>
+</head>
+<body>
+
+<h1> <center>{{date}} 换乘==可乘车次查询 </center></h1>
+
+ <center>
+     <table border="1"  style="font-size:8px;">
+    {% for i, en in enumerate(queryResult) %}
+        {% if i == 0 %}
+            <tr>
+            {% for j, e in enumerate(en[0][:-1]) %}
+               <td bgcolor="#5f9ea0">{{e}}</td>
+                {% endfor %}
+                <td bgcolor="#ff7f50">换乘车次</td>
+            {% for j, e in enumerate(en[1][:-1]) %}
+                <td>{{e}}</td>
+                {% endfor %}
+            </tr>
+        {% else %}
+
+            {% for k, e in enumerate(en[0]) %}
+                {% for j, info in enumerate(e) %}
+                    <tr>
+                        {% for m, data in enumerate(info[:-1]) %}
+                            <td bgcolor="#f0f8ff">{{data}}</td>
+                        {% endfor %}
+                            <td align="center">==></td>
+                        {% if en[1]|length > k and en[1][k]|length > j %}
+                            {% for m, data in enumerate(en[1][k][j][:-1]) %}
+                                <td bgcolor="#f0ffff">{{data}}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+            {% if queryResult|length -1 > i %}
+                <tr><td colspan="33" bgcolor="#faebd7"> <center>============下一个换乘站=========== </center><td></tr>>
+            {%endif%}
+        {%endif%}
+    {%endfor%}
+</table>
+ </center>
+</body>
+</html>

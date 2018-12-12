@@ -1,0 +1,140 @@
+[2018-10-09 23:07:22,778][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:22,937][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:07:22,937][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,256,48', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:23,111][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-10-09 23:07:23,112][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:23,290][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"xopI3M3frrbjPNN62rxAXXhyMjBZktwoMn8rdwsdb2b0"} (logger.py:61)
+[2018-10-09 23:07:23,290][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:23,450][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"q60YxraQFYvVUaOV1fLZOvl2s4Fd42H4Ydno_gsdb2b0"} (logger.py:61)
+[2018-10-09 23:07:23,450][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'q60YxraQFYvVUaOV1fLZOvl2s4Fd42H4Ydno_gsdb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:23,620][    INFO] --- 出参：{"apptk":"q60YxraQFYvVUaOV1fLZOvl2s4Fd42H4Ydno_gsdb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-10-09 23:07:23,622][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:07:23,778][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-10-09 23:45:35,710][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:45:35,877][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:45:35,877][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46,115,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:45:36,155][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-10-09 23:45:53,151][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:45:53,310][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:45:53,311][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:45:53,563][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-10-09 23:46:02,878][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:03,032][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:46:03,033][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '115,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:03,291][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-10-09 23:46:16,828][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:16,988][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:46:16,988][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,42,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:17,621][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-10-09 23:46:26,760][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:26,918][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:46:26,918][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '115,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:27,089][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-10-09 23:46:27,090][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:27,279][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"y2Iq8rMaTJ3uMuSGqi-uMJcoX-OWKamAwnSE7wozb2b0"} (logger.py:61)
+[2018-10-09 23:46:27,279][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:27,441][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"eoigZAm4Hkk9u3tmLvNCmxg8oNkm-3iw16TZQAqrb2b0"} (logger.py:61)
+[2018-10-09 23:46:27,442][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'eoigZAm4Hkk9u3tmLvNCmxg8oNkm-3iw16TZQAqrb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:27,665][    INFO] --- 出参：{"apptk":"eoigZAm4Hkk9u3tmLvNCmxg8oNkm-3iw16TZQAqrb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-10-09 23:46:27,665][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:46:27,867][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-10-09 23:47:11,524][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-10-09 23:47:11,687][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":false,"exMsg":"当前时间不可预订","normal_passengers":null,"dj_passengers":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-10-09 23:47:48,272][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:48,444][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-10-09 23:47:48,445][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '184,45,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:48,661][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-10-09 23:47:48,661][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:48,854][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"LAmXE4evyTkyCl_63l7Cudn_sxWWljgV146iKw73b2b0"} (logger.py:61)
+[2018-10-09 23:47:48,855][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:49,030][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"COG2hdZ-8xdJwOnadULS591Pb39a6Jmh5bwiUgjnb2b0"} (logger.py:61)
+[2018-10-09 23:47:49,030][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'COG2hdZ-8xdJwOnadULS591Pb39a6Jmh5bwiUgjnb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:49,212][    INFO] --- 出参：{"apptk":"COG2hdZ-8xdJwOnadULS591Pb39a6Jmh5bwiUgjnb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-10-09 23:47:49,213][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-10-09 23:47:49,387][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-10-09 23:50:50,764][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-10-09 23:50:51,146][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":false,"exMsg":"当前时间不可预订","normal_passengers":null,"dj_passengers":null},"messages":[],"validateMessages":{}} (logger.py:61)

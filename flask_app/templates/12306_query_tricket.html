@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+     <center>火车票余票查询 </center>
+</h1>
+ <center>
+<form method="post">
+    {{ form.csrf_token }}
+    始发站:{{ form.start_station }}
+    到达站:{{ form.end_station }}
+    乘车时间:<input type="date" name="day", pattern="20[0-9]{2}-[0-9]{2}-[0-9]{2}">
+    越站车次:{{ form.yuezhan_trains }}
+    换乘次数:{{ form.huancheng_num }}
+    {{form.submit}}
+</form>
+ </center>
+{% endblock %}

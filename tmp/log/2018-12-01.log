@@ -1,0 +1,929 @@
+[2018-12-01 13:06:46,217][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:06:47,978][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:06:50,405][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,184,45', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:06:50,745][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 13:06:52,130][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:06:52,420][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"NYx1WQ4K6zNAHo1AvJasoT7nRsk5APMZO0w8uQetb2b0"} (logger.py:61)
+[2018-12-01 13:06:52,420][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:06:52,754][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"UeVN84DLnkC5OpW6VAjeOcjkLwDiCkrDtS9A1gqrb2b0"} (logger.py:61)
+[2018-12-01 13:06:55,157][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'UeVN84DLnkC5OpW6VAjeOcjkLwDiCkrDtS9A1gqrb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:06:55,470][    INFO] --- 出参：{"apptk":"UeVN84DLnkC5OpW6VAjeOcjkLwDiCkrDtS9A1gqrb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 13:16:52,095][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:16:52,933][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:16:52,933][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:16:53,162][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:16:54,166][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:16:54,418][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:16:54,418][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:16:54,755][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:16:55,756][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:16:56,094][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:16:56,094][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:25:35,842][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:25:36,060][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:25:36,061][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '117,36,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:25:36,313][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-01 13:25:48,674][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:25:49,129][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:25:49,129][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '117,36,181,114,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:25:49,681][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:28:18,456][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:29:01,726][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:29:02,377][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:29:02,378][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:29:02,790][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:43,460][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:43,865][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:43,866][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:44,088][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-01 13:47:45,091][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:45,312][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:45,312][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:45,706][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:46,710][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:47,145][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:47,145][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:47,366][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:48,370][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:48,671][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:48,672][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:49,021][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:50,025][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:50,428][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:50,429][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:50,837][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:51,840][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:52,469][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:52,469][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:52,876][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:53,877][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:54,156][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:54,156][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:54,403][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:55,408][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:55,672][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:55,673][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:55,945][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:56,950][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:57,181][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:57,182][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:57,997][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:47:59,000][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:59,443][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:47:59,444][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'34,50,42,125,169,119', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:47:59,722][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:49:27,807][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:49:28,174][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:49:34,612][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'40,40,183,114,252,40', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:49:34,957][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-01 13:53:57,689][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:53:58,439][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:53:59,121][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:53:59,411][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:57:55,005][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:57:55,457][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:57:56,689][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:57:57,039][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:58:10,603][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:10,910][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:58:14,038][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:14,536][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:58:45,842][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:46,204][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:58:46,205][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:46,670][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:58:47,674][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:48,036][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:58:48,037][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:48,450][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:58:49,454][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:49,716][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:58:49,716][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:58:49,987][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 13:59:24,066][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:59:24,315][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:59:24,315][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:59:24,691][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-01 13:59:54,253][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:59:54,510][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 13:59:54,510][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,117,36', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 13:59:55,224][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 14:02:09,547][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:02:09,799][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:02:16,685][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '184,45,256,48,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:02:17,094][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:02:27,280][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:02:27,576][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"gE_ooyxpv1eHGIUeAFcZWbaFpGrgYudJtr4feA64b2b0"} (logger.py:61)
+[2018-12-01 14:02:27,577][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:02:27,822][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Oo_zc6KUkW3HUEqRxeQS_xD3gRbtudXm1NrOOAbcb2b0"} (logger.py:61)
+[2018-12-01 14:02:29,651][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Oo_zc6KUkW3HUEqRxeQS_xD3gRbtudXm1NrOOAbcb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:02:30,041][    INFO] --- 出参：{"apptk":"Oo_zc6KUkW3HUEqRxeQS_xD3gRbtudXm1NrOOAbcb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:04:21,541][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:04:22,268][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:04:22,269][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:04:22,485][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 14:05:42,927][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:05:43,177][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:05:44,336][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'182,119,33,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:05:44,895][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:05:46,283][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:05:46,659][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"BJ67sEQPFXuXOD18nRHOpcwi7la4Aa1SRWKdUAzib2b0"} (logger.py:61)
+[2018-12-01 14:05:46,659][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:05:47,136][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Mju9kXpQi_jS_Ah3uMQDE-MdeiYa7lBGyJLPtQkob2b0"} (logger.py:61)
+[2018-12-01 14:05:48,887][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Mju9kXpQi_jS_Ah3uMQDE-MdeiYa7lBGyJLPtQkob2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:05:49,336][    INFO] --- 出参：{"apptk":"Mju9kXpQi_jS_Ah3uMQDE-MdeiYa7lBGyJLPtQkob2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:07:48,737][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/login.py', reloading (_internal.py:88)
+[2018-12-01 14:07:48,738][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/login.py', reloading (_internal.py:88)
+[2018-12-01 14:17:09,208][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:17:10,074][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:17:10,075][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'102,122,178,125', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:17:10,333][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:17:10,333][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:17:10,680][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Dgq1pOgEjA1ZZ5hdO3Kyj6QGUGwEn7pGorQ02Q51b2b0"} (logger.py:61)
+[2018-12-01 14:17:10,681][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:17:11,545][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"rOOsxDoRzLtSkFWjE4oMZl5eP3mrkPvdjm8Qqgxhb2b0"} (logger.py:61)
+[2018-12-01 14:17:11,546][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'rOOsxDoRzLtSkFWjE4oMZl5eP3mrkPvdjm8Qqgxhb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:17:11,835][    INFO] --- 出参：{"apptk":"rOOsxDoRzLtSkFWjE4oMZl5eP3mrkPvdjm8Qqgxhb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:17:49,410][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:17:49] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:17:49,435][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:17:49] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:22:40,056][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 14:22:40,057][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 14:36:36,726][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:36:37,419][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 14:36:37,426][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:36:37] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:36:37,710][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:36:37] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:36:37,771][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:36:37] "GET /static/images/login/tkcode.png?_t=1543646197.69 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:37:30,872][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:31,298][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:37:31,298][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'38,113', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:31,708][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:37:31,708][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:31,962][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"EaNTDXG3xPFwpeOcEkZnfQCW1hFT1heDj1r6oA09b2b0"} (logger.py:61)
+[2018-12-01 14:37:31,963][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:32,528][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"sP9D1BrPwqGrQihSWwInrSmjec3nlDus9UGEqAsdb2b0"} (logger.py:61)
+[2018-12-01 14:37:32,529][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'sP9D1BrPwqGrQihSWwInrSmjec3nlDus9UGEqAsdb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:32,951][    INFO] --- 出参：{"apptk":"sP9D1BrPwqGrQihSWwInrSmjec3nlDus9UGEqAsdb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:37:32,955][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:32] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:37:32,964][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:32] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:37:33,354][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:33] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:37:33,372][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:33] "GET /static/images/login/tkcode.png?_t=1543646253.35 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:37:55,007][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:55,252][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"w8L125lsTskoztf2EBAZ7cWVZAmfzJLrkeVOhA73b2b0"} (logger.py:61)
+[2018-12-01 14:37:55,252][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'105,36,187,113,256,109', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:37:55,675][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-01 14:37:56,947][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:56] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:37:56,966][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:37:56] "GET /static/images/login/tkcode.png?_t=1543646276.95 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:38:48,691][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:38:48,927][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:38:49,915][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'109,107', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:38:50,133][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:38:58,693][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:38:59,130][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"ApNCFb2ejjq8vEFfmhvvf07Q0kKCvTto2zIO6Asdb2b0"} (logger.py:61)
+[2018-12-01 14:38:59,130][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:38:59,567][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"8DeYXtjaTVEWy2fVLK6v2Pp8zJwhU_phA-P_4gbcb2b0"} (logger.py:61)
+[2018-12-01 14:39:07,857][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'8DeYXtjaTVEWy2fVLK6v2Pp8zJwhU_phA-P_4gbcb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:39:08,107][    INFO] --- 出参：{"apptk":"8DeYXtjaTVEWy2fVLK6v2Pp8zJwhU_phA-P_4gbcb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:41:30,545][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:31,437][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 14:41:31,766][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:31] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:41:31,813][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:31] "GET /static/images/login/tkcode.png?_t=1543646491.76 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:41:46,099][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:46,381][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:41:46,381][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'116,116,186,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:46,626][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:41:46,626][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:46,881][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"mF8wEGY9Udq7LkZlmJr9UfALoxi8Qbi9jlrH-wsdb2b0"} (logger.py:61)
+[2018-12-01 14:41:46,882][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:47,119][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"xG93WIPWm6pYoAi3MRHzUJbJAfyapXf7ZtqxrQ51b2b0"} (logger.py:61)
+[2018-12-01 14:41:47,119][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'xG93WIPWm6pYoAi3MRHzUJbJAfyapXf7ZtqxrQ51b2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:41:47,398][    INFO] --- 出参：{"apptk":"xG93WIPWm6pYoAi3MRHzUJbJAfyapXf7ZtqxrQ51b2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:41:47,401][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:47] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:41:47,410][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:47] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:41:47,684][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:47] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:41:47,708][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:41:47] "GET /static/images/login/tkcode.png?_t=1543646507.68 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:43:26,290][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:43:27,103][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 14:44:26,559][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:44:26] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:44:26,619][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:44:26] "GET /static/images/login/tkcode.png?_t=1543646663.08 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:45:01,472][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:45:01,731][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 14:45:01,734][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'33,109,245,115', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:45:02,060][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 14:45:02,061][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:45:02,302][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"ht6-HnejHjG33372ip8mrsReItXstId6wqVyKwqrb2b0"} (logger.py:61)
+[2018-12-01 14:45:02,304][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:45:02,544][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Mwhy8SYIy3WjDFGdm0z_CHD1TB3fXElJWEhkQQjnb2b0"} (logger.py:61)
+[2018-12-01 14:45:02,545][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Mwhy8SYIy3WjDFGdm0z_CHD1TB3fXElJWEhkQQjnb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:45:02,796][    INFO] --- 出参：{"apptk":"Mwhy8SYIy3WjDFGdm0z_CHD1TB3fXElJWEhkQQjnb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 14:45:23,493][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:45:23] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:48:00,638][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:48:01,492][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 14:48:01,495][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:48:01] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:48:01,505][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:48:01] "GET /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:48:01,516][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:48:01] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 14:49:55,459][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 14:49:55,461][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 14:50:03,826][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 14:50:04,579][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 14:50:04,581][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:50:04] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:50:04,591][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:50:04] "GET /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 14:50:04,603][    INFO] --- 127.0.0.1 - - [01/Dec/2018 14:50:04] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 21:48:27,682][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/inter/CheckUser.py', reloading (_internal.py:88)
+[2018-12-01 21:48:27,683][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/inter/CheckUser.py', reloading (_internal.py:88)
+[2018-12-01 22:01:54,560][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:01:57,353][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:02:39,063][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:02:39,273][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:02:57,426][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:02:57] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:02:57,609][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:02:57,891][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:03:03,818][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:03:03] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:03:03,878][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:03:03] "GET /static/images/login/tkcode.png?_t=1543672978.47 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:03:28,728][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:03:28,917][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:04:04,116][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:04:04,401][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:04:04,401][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'39,115', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:04:04,592][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:04:04,593][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:04:04,926][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"5X2wIziJNQrRCsXi2mWUUw9CKJIFgCYlQq2dAwplb1b0"} (logger.py:61)
+[2018-12-01 22:04:04,927][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:04:05,114][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"yh6sirertDJ0NFqiuY92kD0jk-2l7jo9x5LatQgab1b0"} (logger.py:61)
+[2018-12-01 22:04:05,115][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'yh6sirertDJ0NFqiuY92kD0jk-2l7jo9x5LatQgab1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:04:05,541][    INFO] --- 出参：{"apptk":"yh6sirertDJ0NFqiuY92kD0jk-2l7jo9x5LatQgab1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:05:11,798][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:12,307][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:05:12,660][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:12] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:05:12,779][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:12] "GET /static/css/test.css HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-01 22:05:12,782][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:12] "GET /static/images/login/tkcode.png?_t=1543673112.64 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:05:12,788][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:12] "GET /static/js/framework/jquery-1.9.1.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-01 22:05:12,794][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:12] "GET /static/js/framework/jquery.SuperSlide2.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-01 22:05:23,883][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:23] "GET /static/images/login/captcha.png HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-01 22:05:28,386][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:28,792][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:05:28,793][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:28,977][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:05:28,978][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'184,40,109,43', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:29,169][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:05:29,170][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:29,614][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"56ib9m6iUKOJgn7yVlj5_1b9880RcKuMXpNd7Qtyb1b0"} (logger.py:61)
+[2018-12-01 22:05:29,614][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:29,806][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"6Oh4EbDoGPvnqWJlUPiuElafUq7JJM4Bp03gSA45b1b0"} (logger.py:61)
+[2018-12-01 22:05:29,806][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'6Oh4EbDoGPvnqWJlUPiuElafUq7JJM4Bp03gSA45b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:05:30,006][    INFO] --- 出参：{"apptk":"6Oh4EbDoGPvnqWJlUPiuElafUq7JJM4Bp03gSA45b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:05:30,013][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:30] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:05:30,027][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:05:30] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:07:23,690][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:24,108][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:07:24,115][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:07:24] "GET /snap_up_trainTicket HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:07:24,125][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:24,440][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:07:24,744][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:07:24] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:07:24,792][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:07:24] "GET /static/images/login/tkcode.png?_t=1543673244.72 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:07:37,500][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:37,813][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:07:37,813][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:37,990][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:07:37,991][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'111,56,249,43', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:38,334][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:07:38,335][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:38,740][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"GwiTL2bVAdkNTv8jQRmEUVzO9TFXGV2kOZLR0wweb1b0"} (logger.py:61)
+[2018-12-01 22:07:38,741][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:39,127][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"QhIabWjf8xU-AfNYanZSvdSS_9QvViM670lHewy0b1b0"} (logger.py:61)
+[2018-12-01 22:07:39,128][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'QhIabWjf8xU-AfNYanZSvdSS_9QvViM670lHewy0b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:07:39,560][    INFO] --- 出参：{"apptk":"QhIabWjf8xU-AfNYanZSvdSS_9QvViM670lHewy0b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:10:24,737][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/login.py', reloading (_internal.py:88)
+[2018-12-01 22:10:24,743][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/login.py', reloading (_internal.py:88)
+[2018-12-01 22:10:38,916][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:10:39,777][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:10:39,777][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:10:39,950][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:10:39,951][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'111,56,249,43', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:10:40,123][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-12-01 22:11:35,435][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:35,888][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:11:35,894][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:11:35] "GET /snap_up_trainTicket HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:11:35,905][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:36,209][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:11:36,662][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:11:36] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:11:36,726][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:11:36] "GET /static/images/login/tkcode.png?_t=1543673496.64 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:11:49,122][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:49,518][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:11:49,519][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:49,727][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:11:49,728][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'180,112', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:50,131][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:11:50,131][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:50,539][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"pLOBuOwUrEQQMo9sxZ6EZ4OtBV-i6eJiAFLMggfsb1b0"} (logger.py:61)
+[2018-12-01 22:11:50,540][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:50,948][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"nX8hZQo8WYvi1jWHM5D3kBlhRiqGEv8dXa5bpw64b1b0"} (logger.py:61)
+[2018-12-01 22:11:50,949][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'nX8hZQo8WYvi1jWHM5D3kBlhRiqGEv8dXa5bpw64b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:11:51,134][    INFO] --- 出参：{"apptk":"nX8hZQo8WYvi1jWHM5D3kBlhRiqGEv8dXa5bpw64b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:11:51,140][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:11:51] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:11:51,154][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:11:51] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:12:01,881][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:12:01] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:12:49,952][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 22:12:49,953][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 22:50:48,555][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:50:48,844][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:50:48,851][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:50:48] "GET /snap_up_trainTicket HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:50:48,863][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:50:49,046][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:50:49,323][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:50:49] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:50:49,378][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:50:49] "GET /static/images/login/tkcode.png?_t=1543675849.29 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:51:02,167][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:02,355][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:51:02,356][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:02,689][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:51:02,689][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'114,49', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:03,204][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:51:03,205][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:03,613][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"XU-khI1N6EKgZHqc1h-yXGw-MuVZ1rCPh0w0ZQ92b1b0"} (logger.py:61)
+[2018-12-01 22:51:03,614][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:03,807][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"cpp5OlAD1SMlxvjeafULCdh_sYi5pFnMpXVn6Amkb1b0"} (logger.py:61)
+[2018-12-01 22:51:03,808][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'cpp5OlAD1SMlxvjeafULCdh_sYi5pFnMpXVn6Amkb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:51:04,227][    INFO] --- 出参：{"apptk":"cpp5OlAD1SMlxvjeafULCdh_sYi5pFnMpXVn6Amkb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:51:04,235][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:51:04] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:51:04,249][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:51:04] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:59:42,281][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:42,666][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:59:42,899][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:59:42] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:59:42,950][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:59:42] "GET /static/images/login/tkcode.png?_t=1543676382.87 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 22:59:53,249][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:53,431][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 22:59:53,431][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:53,612][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 22:59:53,613][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'104,49,182,38,253,122', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:53,801][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 22:59:53,802][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:54,009][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"I3QfbAFo5PHMcFkRTbE-gMy3rQg1GhbCq8k-_gubb1b0"} (logger.py:61)
+[2018-12-01 22:59:54,010][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:54,362][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Cvk9xbOYExmn0CsiQP_GgswCM9XfZ1brVcr3-w51b1b0"} (logger.py:61)
+[2018-12-01 22:59:54,362][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Cvk9xbOYExmn0CsiQP_GgswCM9XfZ1brVcr3-w51b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 22:59:54,557][    INFO] --- 出参：{"apptk":"Cvk9xbOYExmn0CsiQP_GgswCM9XfZ1brVcr3-w51b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 22:59:54,561][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:59:54] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 22:59:54,581][    INFO] --- 127.0.0.1 - - [01/Dec/2018 22:59:54] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E9%95%BF%E6%B2%99%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%98%8C%22%2C+%22trains_num%22%3A+%22K433%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,519][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "POST /snap_up_trainTicket2 HTTP/1.1" 500 - (_internal.py:88)
+[2018-12-01 23:00:09,538][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,546][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,548][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,583][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,638][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:00:09,673][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:00:09] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:01:15,981][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 23:01:15,982][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 23:01:28,156][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:28,449][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:01:28,453][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:28] "POST /snap_up_trainTicket2 HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 23:01:28,460][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:28,637][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:01:28,900][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:28] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:01:28,960][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:28] "GET /static/images/login/tkcode.png?_t=1543676488.88 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:01:40,585][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:40,763][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:01:40,763][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:40,943][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 23:01:40,943][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'44,108,261,48', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:41,133][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 23:01:41,133][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:41,337][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"98_Sw4l6AnEUx_cVRMcu5cnoeP4hVXN1AHjacQafb1b0"} (logger.py:61)
+[2018-12-01 23:01:41,339][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:41,526][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Emxe19UmNVy594GyGDX7pmCNeimA1Po40RKvcQ36b1b0"} (logger.py:61)
+[2018-12-01 23:01:41,527][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Emxe19UmNVy594GyGDX7pmCNeimA1Po40RKvcQ36b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:01:41,721][    INFO] --- 出参：{"apptk":"Emxe19UmNVy594GyGDX7pmCNeimA1Po40RKvcQ36b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 23:01:41,725][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:41] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 23:01:41,739][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:41] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22date%22%3A+%222018-12-01%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains_num%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:01:51,842][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:51] "GET /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 23:01:53,548][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:01:53] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E9%95%BF%E6%B2%99%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%98%8C%22%2C+%22trains_num%22%3A+%22K433%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:02:43,115][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 23:02:43,116][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-01 23:02:54,337][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:02:54,338][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:02:54,632][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:02:54,758][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:02:54,765][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:02:54] "POST /snap_up_trainTicket2 HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 23:02:54,771][   ERROR] --- Error on request:
+Traceback (most recent call last):
+  File "/Users/biandonghai/.local/share/virtualenvs/flask_test-rD0QPST2/lib/python2.7/site-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/Users/biandonghai/.local/share/virtualenvs/flask_test-rD0QPST2/lib/python2.7/site-packages/werkzeug/serving.py", line 261, in execute
+    write(data)
+  File "/Users/biandonghai/.local/share/virtualenvs/flask_test-rD0QPST2/lib/python2.7/site-packages/werkzeug/serving.py", line 227, in write
+    self.send_header(key, value)
+  File "/anaconda2/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe (_internal.py:88)
+[2018-12-01 23:02:54,857][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:02:54] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:02:54,933][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:02:54] "GET /static/images/login/tkcode.png?_t=1543676574.84 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-01 23:03:05,137][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:05,535][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-01 23:03:05,535][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:05,717][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-01 23:03:05,718][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'113,107', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:05,907][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-01 23:03:05,907][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:06,104][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Q7hTU8ahoLu3uyGeRuO9dSMwoGuQCH8QQ4PzAgy0b1b0"} (logger.py:61)
+[2018-12-01 23:03:06,104][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:06,290][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"dxK3wdLnPiwKl_dK4MDAGpQh62Th4l5krtcnNwbcb1b0"} (logger.py:61)
+[2018-12-01 23:03:06,290][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'dxK3wdLnPiwKl_dK4MDAGpQh62Th4l5krtcnNwbcb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-01 23:03:06,481][    INFO] --- 出参：{"apptk":"dxK3wdLnPiwKl_dK4MDAGpQh62Th4l5krtcnNwbcb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-01 23:03:06,485][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:03:06] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-01 23:03:06,503][    INFO] --- 127.0.0.1 - - [01/Dec/2018 23:03:06] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E9%95%BF%E6%B2%99%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%98%8C%22%2C+%22trains_num%22%3A+%22K433%22%7D HTTP/1.1" 200 - (_internal.py:88)

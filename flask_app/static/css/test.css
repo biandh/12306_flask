@@ -1,0 +1,86 @@
+.lgcode-2018 .lgcode-active,
+.lgcode-2018 .lgcode-error,
+.lgcode-2018 .lgcode-refresh,
+.lgcode-2018 .lgcode-success {
+  background: url(../images/login/captcha.png);
+  background-repeat: no-repeat;
+}
+
+.lgcode-2018 .lgcode-error,
+.lgcode-2018 .lgcode-success {
+  display: none;
+  width: 293px;
+  height: 188px;
+  margin: 0 auto;
+  background-position: 0 -203px;
+}
+
+.lgcode-2018 .lgcode-success {
+  background-position: 0 -393px;
+}
+
+.lgcode-2018 .lgcode-refresh {
+  position: absolute;
+  z-index: 2;
+  right: 2px;
+  left: auto;
+  top: 2px;
+  cursor: pointer;
+  width: 53px;
+  height: 25px;
+  background-position: 0 0;
+}
+
+.lgcode-2018 .lgcode-refresh-click {
+  background-position: 0 -25px;
+}
+
+.lgcode-2018 .loginImg {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: 188px;
+}
+
+.lgcode-2018 .loginImg .imgCode {
+  width: 300px;
+  height: 188px;
+}
+
+.lgcode-2018 .lgcode-loading {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 75px 0;
+}
+
+.lgcode-2018 .lgcode-loading img {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.lgcode-2018 .lgcode-active {
+  position: absolute;
+  z-index: 3;
+  background-position: 0 -96px;
+  width: 27px;
+  height: 27px;
+  font-size: 0;
+}
+
+.lgcode-2018 .login-code-loading .loading {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 75px 0;
+}
+
+.lgcode-2018 .login-code-loading .loading img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}

@@ -1,0 +1,579 @@
+[2018-12-04 13:04:14,765][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:15,178][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:15,612][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:15] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:04:15,732][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:15] "GET /static/js/framework/jquery-1.9.1.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-04 13:04:15,734][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:15] "GET /static/css/test.css HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-04 13:04:15,735][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:15] "GET /static/images/login/tkcode.png?_t=1543899855.59 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:04:15,743][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:15] "GET /static/js/framework/jquery.SuperSlide2.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-04 13:04:22,034][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:22] "GET /static/images/login/captcha.png HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-04 13:04:23,257][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:23,429][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:23,430][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:23,744][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:04:23,745][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'107,45', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:24,204][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 13:04:24,204][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:24,397][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"YjmYKVE94UV52bAHvc7MFzfDKGi4k_bmp1Pu-g64b1b0"} (logger.py:61)
+[2018-12-04 13:04:24,397][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:25,308][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"QF2lxWk-Dp0lKvpvvbdSbTobyrfMzDrK0Iy__Akob1b0"} (logger.py:61)
+[2018-12-04 13:04:25,308][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'QF2lxWk-Dp0lKvpvvbdSbTobyrfMzDrK0Iy__Akob1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:25,704][    INFO] --- 出参：{"apptk":"QF2lxWk-Dp0lKvpvvbdSbTobyrfMzDrK0Iy__Akob1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 13:04:25,709][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:25] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:04:25,723][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:04:25] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:04:35,521][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:35,724][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:35,724][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'YixJHuTtPL1R+gOFN5A5u6+H9XQaiuv4MwwYfDa2M3h07vda9HCn9Lyq02h33PXMAeq4hJVnHX6y\nUKBOgyFoEB+bJW4di9jx5EmMCzMBCAq7dgQ+QU/YDFk8D0Rojdku1XsiJDHMT7KPpyzM/TJxBxbZ\ns3TNf5xME9QLe6OpBTyTGTa2l9wQVm5Y1l2PrQ5SbJJHyG3lfSfizw8Kjqhvi3wWdCGBQPukVqbQ\n+8KFVRexLlfKe/ISSayaEMcDfLB8'), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-04'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'HKN'), ('query_to_station_name', u'NKH')]
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:35,932][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"N","messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:37,113][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('passengerTicketStr', u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N'), ('oldPassengerStr', u'\u535e\u4e1c\u6d77,1,342201199012057214,1_'), ('REPEAT_SUBMIT_TOKEN', 'be2e04798822d59934114e97f101ce89'), ('randCode', ''), ('cancel_flag', 2), ('bed_level_order_num', '000000000000000000000000000000'), ('tour_flag', 'dc'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:37,527][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"ifShowPassCode":"N","canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"OM","isCanChooseMid":"N","ifShowPassCodeTime":"1429","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:37,535][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Sat Dec 029 2018 00:00:00 GMT+0800 (\xe4\xb8\xad\xe5\x9b\xbd\xe6\xa0\x87\xe5\x87\x86\xe6\x97\xb6\xe9\x97\xb4)',)), ('train_no', (u'39000D219802',)), ('stationTrainCode', (u'D2198',)), ('seatType', ('O',)), ('fromStationTelecode', (u'HKN',)), ('toStationTelecode', (u'NKH',)), ('leftTicket', (u'7c9A6tH3%2BIXwYRfyx%2BUfpHK85pXAQR5Aw31tGc0hT%2BGJJ0Yr',)), ('purpose_codes', (u'00',)), ('train_location', (u'N2',)), ('REPEAT_SUBMIT_TOKEN', ('be2e04798822d59934114e97f101ce89',))])
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:37,721][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"0","ticket":"1089,210","op_2":"false","countT":"0","op_1":"false"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:39,156][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'roomType': '00', 'oldPassengerStr': u'\u535e\u4e1c\u6d77,1,342201199012057214,1_', 'whatsSelect': 1, '_json_at': '', 'train_location': u'N2', 'leftTicketStr': u'7c9A6tH3%2BIXwYRfyx%2BUfpHK85pXAQR5Aw31tGc0hT%2BGJJ0Yr', 'randCode': '', 'passengerTicketStr': u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N', 'seatDetailType': '', 'dwAll': 'N', 'REPEAT_SUBMIT_TOKEN': 'be2e04798822d59934114e97f101ce89', 'choose_seats': '', 'purpose_codes': u'00', 'key_check_isChange': u'8AC16B7BD5810AF4E63874C29A884810A4995E59AB72D24EE85FB765'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:04:41,185][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:41,186][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899881186&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:41,600][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6475585446290774752,"waitCount":1,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:43,604][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899883604&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:43,786][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:45,790][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899885790&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:45,971][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:47,976][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899887976&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:48,393][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:50,396][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899890396&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:50,792][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:52,798][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899892798&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:53,195][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:55,197][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899895197&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:55,378][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:57,379][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899897379&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:57,790][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:04:59,791][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899899791&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:04:59,974][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:05:01,979][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899901979&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:05:02,388][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:05:04,392][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543899904392&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:05:04,789][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475585446290774752,"waitCount":0,"tourFlag":"dc","orderId":"E425985013"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:06:30,460][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:06:30,705][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:06:34,626][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:34] "GET /snap_up_trainTicket2 HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:06:34,641][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:06:34,932][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:06:35,345][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:35] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:35,427][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:35] "GET /static/images/login/tkcode.png?_t=1543899995.29 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:41,397][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:41] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:42,897][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:42] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:51,025][    INFO] --- 车次配置信息: 武汉 --> 南京 时间: 2018-12-29 有误，或者返回数据异常，请检查: ["", "列车运行图调整,暂停发售", "770000D95800", "D958", "CUW", "SHH", "HKN", "NKH", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181229", "", "W2", "04", "06", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:237)
+[2018-12-04 13:06:51,025][    INFO] --- 车次配置信息: 武汉 --> 南京 时间: 2018-12-29 有误，或者返回数据异常，请检查: ["", "列车运行图调整,暂停发售", "77000D221409", "D2214", "CUW", "AOH", "HKN", "NKH", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181229", "", "W1", "10", "16", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:237)
+[2018-12-04 13:06:51,026][    INFO] --- 车次配置信息: 武汉 --> 南京 时间: 2018-12-29 有误，或者返回数据异常，请检查: ["", "列车运行图调整,暂停发售", "760000D95400", "D954", "ICW", "SHH", "HKN", "NKH", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181229", "", "W1", "05", "07", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:237)
+[2018-12-04 13:06:51,026][    INFO] --- 车次配置信息: 武汉 --> 南京 时间: 2018-12-29 有误，或者返回数据异常，请检查: ["", "列车运行图调整,暂停发售", "39000G172600", "G1726", "HKN", "AOH", "HKN", "NKH", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181229", "", "N4", "01", "03", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:237)
+[2018-12-04 13:06:51,094][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:51] "POST /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:52,796][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:06:52,952][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:06:53,165][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:53] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:06:53,190][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:06:53] "GET /static/images/login/tkcode.png?_t=1543900013.16 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:07:01,946][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:02,216][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:07:02,217][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:02,375][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:07:02,375][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'238,101,30,33', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:02,911][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 13:07:02,911][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:03,355][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"QFLb376EqFbotWehuryW1zx4yqUKGaPIn6-V5gozb2b0"} (logger.py:61)
+[2018-12-04 13:07:03,356][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:03,519][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"7b9sIwYINalTpx2rK5F90RnhDZCpc77QP1H47w45b2b0"} (logger.py:61)
+[2018-12-04 13:07:03,520][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'7b9sIwYINalTpx2rK5F90RnhDZCpc77QP1H47w45b2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:07:03,694][    INFO] --- 出参：{"apptk":"7b9sIwYINalTpx2rK5F90RnhDZCpc77QP1H47w45b2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 13:07:03,700][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:07:03] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:07:03,715][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:07:03] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:08:34,289][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:08:34,630][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":false,"exMsg":"用户未登录","noLogin":"true","normal_passengers":null,"dj_passengers":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:17:11,790][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:12,175][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:17:12,433][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:17:12] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:17:12,481][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:17:12] "GET /static/images/login/tkcode.png?_t=1543900632.42 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:17:20,008][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:20,179][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:17:20,180][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:20,353][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:17:20,354][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'246,125', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:20,740][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 13:17:20,740][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:20,939][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"0Tf-r3t-4HPEU3pIu_w8IMaXO0V4OgcPY3R6tQ92b1b0"} (logger.py:61)
+[2018-12-04 13:17:20,939][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:21,116][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Z6pinmO_sz5VuW8OUSl9Rkk1ttedRBGQKeEZdwgab1b0"} (logger.py:61)
+[2018-12-04 13:17:21,116][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Z6pinmO_sz5VuW8OUSl9Rkk1ttedRBGQKeEZdwgab1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:21,298][    INFO] --- 出参：{"apptk":"Z6pinmO_sz5VuW8OUSl9Rkk1ttedRBGQKeEZdwgab1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 13:17:21,303][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:17:21] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:17:21,314][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:17:21] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:17:46,783][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:17:46,981][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:17:46,982][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'/crW1l9FMruzFPCTJq+rqIotJomxVHmuNJVYd/0rw410qwbQI+9CKh2LlEJ48WhcyrvNTnJjTQRx\nvLI0pZt0BC+kUaT2La1Zjg1yt/rMFfJf5i9sBMpNRYRig0jQmy4lT8symPubg6zDKap3SSelVVgf\ncqHPagHwpAjeND7gUMGA8JAJQSfj+D31SzfNFaLWJdAbOXk8649jMex7QompQ01rhneweNgWbVyh\nmmA61/EyhhXxER8YGHPkC9ltsZ4j'), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-04'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'HKN'), ('query_to_station_name', u'NKH')]
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:17:48,374][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":false,"httpstatus":200,"messages":["您还有未处理的订单，请您到<a href=\"../view/train_order.html\">[未完成订单]</a>进行处理!"],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:18:58,297][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:18:58] "POST /snap_up_trainTicket2 HTTP/1.1" 500 - (_internal.py:88)
+[2018-12-04 13:18:58,340][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:18:58] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:18:58,345][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:18:58] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:18:58,345][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:18:58] "GET /snap_up_trainTicket2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:23:15,478][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-04 13:23:15,479][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-04 13:25:27,053][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:27,267][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:25:27,909][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:27] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:25:27,962][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:27] "GET /static/images/login/tkcode.png?_t=1543901127.9 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:25:34,861][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:35,021][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:25:35,022][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:35,307][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:25:35,307][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'112,43', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:35,478][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-12-04 13:25:37,095][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:37] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:25:37,114][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:37] "GET /static/images/login/tkcode.png?_t=1543901137.09 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:25:43,293][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:43,556][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:25:43,556][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:43,716][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:25:43,717][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'41,35,49,118', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:43,888][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 13:25:43,889][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:44,186][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"LsFxHLStkwO2iPCsMvB5VTt6k2scVFfLCmco4Amkb2b0"} (logger.py:61)
+[2018-12-04 13:25:44,186][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:44,360][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"4njicOcn3DVnrsgUKuOqWUtnYe4SDKKCuyAovwubb2b0"} (logger.py:61)
+[2018-12-04 13:25:44,361][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'4njicOcn3DVnrsgUKuOqWUtnYe4SDKKCuyAovwubb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:25:44,708][    INFO] --- 出参：{"apptk":"4njicOcn3DVnrsgUKuOqWUtnYe4SDKKCuyAovwubb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 13:25:44,713][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:44] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:25:44,742][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:25:44] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:26:04,823][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:26:05,011][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:26:05,012][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'CVpTCAZhZb8dH+Lrv925b0LtEH8Z5/Vs3gzPJt2/La+dRlFm0E+Y4EjBf7uFYv3NcXR/haRIOzNk\ngWdP+fdOPasPdFsTEu8g88vB6Tjym6LlfWp4qxIafDSEl+c1JVt+jKXHt0FoGK1pIZGvWAcuuBBO\nkoCsoLQ3n8gdG6kjt99KPF7+PGkCwMmLb1mq3Acr9oYfNlgw3D3oEsl9ZyynJEs/bwcPSUfixHGq\nxxTKA/iBtzfeD1fF+wBNbqLi0LdA'), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-04'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'HKN'), ('query_to_station_name', u'NKH')]
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:26:05,283][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":false,"httpstatus":200,"messages":["您还有未处理的订单，请您到<a href=\"../view/train_order.html\">[未完成订单]</a>进行处理!"],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:26:34,689][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:26:34] "POST /snap_up_trainTicket2 HTTP/1.1" 500 - (_internal.py:88)
+[2018-12-04 13:28:06,701][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-04 13:28:06,703][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-04 13:30:45,914][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:46,206][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:30:46,429][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:30:46] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:30:46,486][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:30:46] "GET /static/images/login/tkcode.png?_t=1543901446.41 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:30:54,660][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:55,026][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:30:55,026][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:55,184][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 13:30:55,184][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'115,50,186,122', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:55,344][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 13:30:55,344][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:55,522][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"lRm6bZJwesEyCgC5f_ckFfi_uhIEFUfMztGE9wrwb2b0"} (logger.py:61)
+[2018-12-04 13:30:55,523][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:55,862][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"qhEC8pHAofWwppaCxXXwP9Cr99TnESoRST5GZQqrb2b0"} (logger.py:61)
+[2018-12-04 13:30:55,863][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'qhEC8pHAofWwppaCxXXwP9Cr99TnESoRST5GZQqrb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 13:30:56,175][    INFO] --- 出参：{"apptk":"qhEC8pHAofWwppaCxXXwP9Cr99TnESoRST5GZQqrb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 13:30:56,180][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:30:56] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 13:30:56,194][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:30:56] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:31:00,793][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:31:01,083][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:31:22,457][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:31:22] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:31:28,870][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:31:29,180][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:31:45,453][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:31:45] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:31:51,596][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:31:51,868][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:31:51,870][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:31:51] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:31:58,016][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 13:31:58,323][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 13:31:58,325][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:31:58] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 13:32:01,618][    INFO] --- 127.0.0.1 - - [04/Dec/2018 13:32:01] "GET /snap_up_trainTicket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 20:55:52,048][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:55:52,267][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:55:52,510][    INFO] --- 127.0.0.1 - - [04/Dec/2018 20:55:52] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 20:55:52,550][    INFO] --- 127.0.0.1 - - [04/Dec/2018 20:55:52] "GET /static/images/login/tkcode.png?_t=1543928152.49 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 20:56:00,935][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:01,093][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:01,094][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:01,268][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-04 20:56:01,269][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'258,36,257,120', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:01,453][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-04 20:56:01,456][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:01,659][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"VNPtgaooTXybOmWubWHHj-yAKLCVabNDfx-PIQkob1b0"} (logger.py:61)
+[2018-12-04 20:56:01,659][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:01,847][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Rsq9i-ywQO9kzwY4Twi2QVivpGECxc0rAv3d4Afsb1b0"} (logger.py:61)
+[2018-12-04 20:56:01,848][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Rsq9i-ywQO9kzwY4Twi2QVivpGECxc0rAv3d4Afsb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:02,036][    INFO] --- 出参：{"apptk":"Rsq9i-ywQO9kzwY4Twi2QVivpGECxc0rAv3d4Afsb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-04 20:56:02,044][    INFO] --- 127.0.0.1 - - [04/Dec/2018 20:56:02] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-04 20:56:02,057][    INFO] --- 127.0.0.1 - - [04/Dec/2018 20:56:02] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D2198%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-04 20:56:10,453][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:10,641][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:10,642][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'UgIctCfCtEpid3lt9beNYK8/rehKjPw37usIijJi0scVj7iKcXTAvRql0XmJsJTK5PI3yY0phB3j\ndlXIo+oBthDlropvhCU+e4ImJRWEEjaw7H51UUE4YH+SLj8y0H6f60H0c2E/n9NFdO3s8wZpMJNJ\nx+OeHN90k8izMWwTvNC3WFBHmhsY5z2OJR3mJWM2Lg3iniA8GFrHUQGqeE3HENdqFH7UWbFRarh+\nxEXIdl+XkFn1t/n2l3j9+AK+ySGy'), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-04'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'HKN'), ('query_to_station_name', u'NKH')]
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:11,079][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"N","messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:12,369][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('passengerTicketStr', u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N'), ('oldPassengerStr', u'\u535e\u4e1c\u6d77,1,342201199012057214,1_'), ('REPEAT_SUBMIT_TOKEN', '4e79b027ad2472466c688d8ba5fa6381'), ('randCode', ''), ('cancel_flag', 2), ('bed_level_order_num', '000000000000000000000000000000'), ('tour_flag', 'dc'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:12,750][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"ifShowPassCode":"N","canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"OM","isCanChooseMid":"N","ifShowPassCodeTime":"1286","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:12,758][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Sat Dec 029 2018 00:00:00 GMT+0800 (\xe4\xb8\xad\xe5\x9b\xbd\xe6\xa0\x87\xe5\x87\x86\xe6\x97\xb6\xe9\x97\xb4)',)), ('train_no', (u'39000D219802',)), ('stationTrainCode', (u'D2198',)), ('seatType', ('O',)), ('fromStationTelecode', (u'HKN',)), ('toStationTelecode', (u'NKH',)), ('leftTicket', (u'DdZRx9A9K3PKOlzCwegfoaDe7NWzSj41rP1QZCgdEJhX1qsX',)), ('purpose_codes', (u'00',)), ('train_location', (u'N2',)), ('REPEAT_SUBMIT_TOKEN', ('4e79b027ad2472466c688d8ba5fa6381',))])
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:13,168][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"2","ticket":"1087,210","op_2":"false","countT":"0","op_1":"true"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:14,457][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'roomType': '00', 'oldPassengerStr': u'\u535e\u4e1c\u6d77,1,342201199012057214,1_', 'whatsSelect': 1, '_json_at': '', 'train_location': u'N2', 'leftTicketStr': u'DdZRx9A9K3PKOlzCwegfoaDe7NWzSj41rP1QZCgdEJhX1qsX', 'randCode': '', 'passengerTicketStr': u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N', 'seatDetailType': '', 'dwAll': 'N', 'REPEAT_SUBMIT_TOKEN': '4e79b027ad2472466c688d8ba5fa6381', 'choose_seats': '', 'purpose_codes': u'00', 'key_check_isChange': u'DCF586AFB0BB574549397716682E711662A1034531BC8334EEB69F73'}
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:56:14,838][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:14,839][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928174839&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:15,255][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:17,259][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928177259&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:17,660][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:19,661][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928179661&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:20,063][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:22,064][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928182064&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:22,463][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:24,466][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928184466&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:24,867][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:26,873][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928186873&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:27,046][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:29,048][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928189048&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:29,361][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:31,368][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928191368&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:31,759][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:33,765][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928193765&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:33,942][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:35,949][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928195950&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:36,127][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:38,130][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928198130&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:38,548][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:40,552][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928200552&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:40,951][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:42,955][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928202955&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:43,355][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:45,360][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928205360&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:45,758][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:47,760][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928207759&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:48,054][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:50,062][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928210060&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:50,238][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:52,244][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928212244&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:52,549][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:54,552][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928214552&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:54,864][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:56,869][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928216869&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:57,048][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:56:59,053][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928219053&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:56:59,238][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:00,069][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'UgIctCfCtEpid3lt9beNYK8/rehKjPw37usIijJi0scVj7iKcXTAvRql0XmJsJTK5PI3yY0phB3j\ndlXIo+oBthDlropvhCU+e4ImJRWEEjaw7H51UUE4YH+SLj8y0H6f60H0c2E/n9NFdO3s8wZpMJNJ\nx+OeHN90k8izMWwTvNC3WFBHmhsY5z2OJR3mJWM2Lg3iniA8GFrHUQGqeE3HENdqFH7UWbFRarh+\nxEXIdl+XkFn1t/n2l3j9+AK+ySGy'), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-04'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'HKN'), ('query_to_station_name', u'NKH')]
+请求方式: post
+ (logger.py:61)
+[2018-12-04 20:57:00,288][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":false,"httpstatus":200,"messages":["您还有未处理的订单，请您到<a href=\"../view/train_order.html\">[未完成订单]</a>进行处理!"],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:01,245][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928221244&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:01,633][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:03,637][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928223637&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:03,941][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:05,947][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928225947&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:06,331][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:08,336][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928228336&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:08,518][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:10,523][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928230523&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:10,928][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:12,931][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928232931&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:13,225][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-04 20:57:15,230][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1543928235230&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-04 20:57:15,627][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6475704119198341856,"waitCount":0,"tourFlag":"dc","orderId":"E436231165"},"messages":[],"validateMessages":{}} (logger.py:61)

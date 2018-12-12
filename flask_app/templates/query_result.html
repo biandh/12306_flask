@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询结果</title>
+</head>
+
+<body>
+<h1> <center>{{date}}可乘车次查询 </center></h1>
+ <center>
+     <table border="1">
+
+        {% for i, en in enumerate(queryResult) %}
+            {% for train_info in en %}
+                {% set station=[] %}
+                <tr>
+                    {% for j, info in enumerate(train_info) %}
+                        {% if j == 0 %}
+                            {% do station.append(info) %}
+                        {% endif %}
+                        {% if j == 1 %}
+                            {% do station.append(info) %}
+                        {% endif %}
+                        {% if j == 2 %}
+                            {% do station.append(info) %}
+                        {% endif %}
+                        {%if i == 0 %}
+                            <td bgcolor="#5f9ea0">{{info}}</td>
+                        {% elif j < train_info|length - 1 %}
+                            <td bgcolor="#f0f8ff">{{info}}</td>
+                        {% else %}
+                            {% if info != "抢票" %}
+                                <td bgcolor="#f0f8ff"> <a href="{{link_to_12306(station[1], station[2], date)}}" target="_blank"><button style="background-color: forestgreen">{{info}}</button></a></td>
+                            {% else %}
+                                <td bgcolor="#f0f8ff">
+                                    <form action="{{url_for('login')}}" method="post">
+                                    <!--a href="login" target="_blank"><button style="background-color: coral">{{info}}</button></a-->
+                                        <input type="hidden" value="{{station[1]}}" name="from_station"/>
+                                        <input type="hidden" value="{{station[2]}}" name="to_station"/>
+                                        <input type="hidden" value="{{station[0]}}" name="trains"/>
+                                        <input type="hidden" value="{{date}}" name="date"/>
+                                        <input type="submit" value="抢票" name="按钮">
+                                    </form>
+                                </td>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            {%endfor%}
+        {%endfor%}
+</table>
+ </center>
+</body>
+</html>

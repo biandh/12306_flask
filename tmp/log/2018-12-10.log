@@ -1,0 +1,513 @@
+[2018-12-10 12:30:06,594][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:06,856][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:30:07,111][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:07] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:30:07,223][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:07] "GET /static/js/framework/jquery.SuperSlide2.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-10 12:30:07,224][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:07] "GET /static/images/login/tkcode.png?_t=1544416207.09 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:30:07,226][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:07] "GET /static/css/test.css HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-10 12:30:07,230][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:07] "GET /static/js/framework/jquery-1.9.1.js HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-10 12:30:20,861][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:20] "GET /static/images/login/captcha.png HTTP/1.1" 304 - (_internal.py:88)
+[2018-12-10 12:30:21,812][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:22,122][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:30:22,123][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:22,429][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 12:30:22,430][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'108,44', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:22,616][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 12:30:22,616][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:22,815][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"-qjiYymiM-hfigL4FzBx4JvUMUQrJonr20wzHAdqb1b0"} (logger.py:61)
+[2018-12-10 12:30:22,816][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:23,283][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"_ltNU3oCObl_8gmdZ6P2DHioWmh1HKAQ4i_6-w1pb1b0"} (logger.py:61)
+[2018-12-10 12:30:23,284][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'_ltNU3oCObl_8gmdZ6P2DHioWmh1HKAQ4i_6-w1pb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:30:23,610][    INFO] --- 出参：{"apptk":"_ltNU3oCObl_8gmdZ6P2DHioWmh1HKAQ4i_6-w1pb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 12:30:23,619][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:23] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 12:30:23,634][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:30:23] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E9%95%BF%E6%B2%99%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G551%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:31:22,553][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {}
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:31:22,925][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"code":"1","passenger_name":"卞东海","sex_code":"M","sex_name":"男","born_date":"1990-12-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199012057214","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"469529324@qq.com","address":"","postalcode":"","first_letter":"","recordCount":"14","total_times":"99","index_id":"0","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"3","passenger_name":"卞和威","sex_code":"M","sex_name":"男","born_date":"2015-04-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201199306157210","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18355379372","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BHW","recordCount":"14","total_times":"99","index_id":"1","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"2","passenger_name":"卞荣伟","sex_code":"M","sex_name":"男","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201196503157216","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"BRW","recordCount":"14","total_times":"97","index_id":"2","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"4","passenger_name":"蔡开连","sex_code":"M","sex_name":"男","born_date":"2016-01-27 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"522427198711255483","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15220144676","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CKL","recordCount":"14","total_times":"99","index_id":"3","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"5","passenger_name":"陈云","sex_code":"M","sex_name":"男","born_date":"2016-01-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"341222199009096336","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"CY","recordCount":"14","total_times":"99","index_id":"4","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"7","passenger_name":"顾凤武","sex_code":"M","sex_name":"男","born_date":"1900-01-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340122199102222417","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15330722856","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GFW","recordCount":"14","total_times":"99","index_id":"5","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"6","passenger_name":"甘恢早","sex_code":"F","sex_name":"女","born_date":"1991-06-11 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342523199106118828","passenger_type":"3","passenger_flag":"0","passenger_type_name":"学生","mobile_no":"18226734364","phone_no":"","email":"","address":"","postalcode":"","first_letter":"GHZ","recordCount":"14","total_times":"99","index_id":"6","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"8","passenger_name":"黎芳羡","sex_code":"F","sex_name":"女","born_date":"2014-03-01 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"45072119900706044X","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18255399993","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LFX","recordCount":"14","total_times":"99","index_id":"7","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"9","passenger_name":"鲁治","sex_code":"M","sex_name":"男","born_date":"2016-02-14 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342425199202260514","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15851720052","phone_no":"","email":"","address":"","postalcode":"","first_letter":"LZ","recordCount":"14","total_times":"99","index_id":"8","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"10","passenger_name":"韦明英","sex_code":"F","sex_name":"女","born_date":"2014-01-07 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342201197001017226","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"","phone_no":"","email":"","address":"","postalcode":"","first_letter":"WMY","recordCount":"14","total_times":"97","index_id":"9","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"11","passenger_name":"许娟","sex_code":"F","sex_name":"女","born_date":"2014-04-08 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342427199407203743","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15256068968","phone_no":"","email":"","address":"","postalcode":"","first_letter":"XJ","recordCount":"14","total_times":"99","index_id":"10","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"12","passenger_name":"云玉芝","sex_code":"M","sex_name":"男","born_date":"2016-01-05 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342123196501201220","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"13613087212","phone_no":"","email":"","address":"","postalcode":"","first_letter":"YYZ","recordCount":"14","total_times":"99","index_id":"11","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"14","passenger_name":"朱宝","sex_code":"F","sex_name":"女","born_date":"1993-07-12 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"342423199307124006","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"15755387063","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZB","recordCount":"14","total_times":"99","index_id":"12","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""},{"code":"13","passenger_name":"张丽","sex_code":"F","sex_name":"女","born_date":"2015-06-20 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"340881199210301225","passenger_type":"1","passenger_flag":"0","passenger_type_name":"成人","mobile_no":"18256091240","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZL","recordCount":"14","total_times":"99","index_id":"13","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:31:31,740][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', u'l23g7BlBQ+MEn3TZj00OG3/DJ37ujqsoS1PcW0saBPu89YsIPkEW0dmmLvJT/iGVF9k+/My5tLiw\ngunYZw25LKM874/errZc4bnTNOLl2/zazE1i2Myu9DpX+E4Sd145Y0hUi643qvYgCqvKmb3368Zw\nW0qNprhTATamQDbBa8854F4HtwkC9jDM8pjs1IQ1T9+7cStt22GZKfc86q3hmkjXqGVMrXEPYB4Q\nn0U/l+XnIL3GqdKTk+zzrGPWcmMkBu17ncLhS3Q='), ('train_date', u'2018-12-29'), ('back_train_date', '2018-12-10'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', u'WHN'), ('query_to_station_name', u'CWQ')]
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:31:32,117][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"N","messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:31:55,849][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('passengerTicketStr', u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N'), ('oldPassengerStr', u'\u535e\u4e1c\u6d77,1,342201199012057214,1_'), ('REPEAT_SUBMIT_TOKEN', '229d8bbc4da0db75a24f56e16455adc5'), ('randCode', ''), ('cancel_flag', 2), ('bed_level_order_num', '000000000000000000000000000000'), ('tour_flag', 'dc'), ('_json_att', '')])
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:31:56,035][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"ifShowPassCode":"N","canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"O9M","isCanChooseMid":"N","ifShowPassCodeTime":"1","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:04,697][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Sat Dec 029 2018 00:00:00 GMT+0800 (\xe4\xb8\xad\xe5\x9b\xbd\xe6\xa0\x87\xe5\x87\x86\xe6\x97\xb6\xe9\x97\xb4)',)), ('train_no', (u'4e000G10090D',)), ('stationTrainCode', (u'G1009',)), ('seatType', ('O',)), ('fromStationTelecode', (u'WHN',)), ('toStationTelecode', (u'CWQ',)), ('leftTicket', (u'T6MUiJY1grm2UMm5eMpxVt9ZYFgY3fds43jvl%2FxYmYk5TrzlQO6EeXKyiyA%3D',)), ('purpose_codes', (u'00',)), ('train_location', (u'N3',)), ('REPEAT_SUBMIT_TOKEN', ('229d8bbc4da0db75a24f56e16455adc5',))])
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:32:05,123][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"0","ticket":"846,0","op_2":"false","countT":"0","op_1":"false"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:24,296][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'roomType': '00', 'oldPassengerStr': u'\u535e\u4e1c\u6d77,1,342201199012057214,1_', 'whatsSelect': 1, '_json_at': '', 'train_location': u'N3', 'leftTicketStr': u'T6MUiJY1grm2UMm5eMpxVt9ZYFgY3fds43jvl%2FxYmYk5TrzlQO6EeXKyiyA%3D', 'randCode': '', 'passengerTicketStr': u'O,0,1,\u535e\u4e1c\u6d77,1,342201199012057214,,N', 'seatDetailType': '', 'dwAll': 'N', 'REPEAT_SUBMIT_TOKEN': '229d8bbc4da0db75a24f56e16455adc5', 'choose_seats': '', 'purpose_codes': u'00', 'key_check_isChange': u'899DC1E1AEF01A4F234947D2494709ADD9A3871D85A0AABD013857A7'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:32:24,513][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:34,385][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416354385&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:34,710][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:36,716][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416356716&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:36,905][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:38,911][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416358911&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:39,096][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:41,102][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416361101&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:41,281][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:43,285][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416363285&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:43,598][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:45,603][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416365602&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:45,787][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:47,790][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416367790&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:48,157][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:50,163][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416370162&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:50,345][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:52,349][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416372349&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:52,655][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:54,659][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416374659&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:54,845][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:56,848][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416376848&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:57,242][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:32:59,244][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416379244&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:32:59,431][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:33:01,437][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416381436&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:33:01,840][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:33:19,612][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1544416399009&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2018-12-10 12:33:19,800][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6477751651311147744,"waitCount":0,"tourFlag":"dc","orderId":"E499563661"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:33:55,944][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/inter/QueryOrderWaitTime.py', reloading (_internal.py:88)
+[2018-12-10 12:33:55,945][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/inter/QueryOrderWaitTime.py', reloading (_internal.py:88)
+[2018-12-10 12:34:10,802][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:34:11,035][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:34:11,042][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:34:11] "POST /snap_up_trainTicket2 HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 12:34:11,051][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:34:11,209][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:34:11,473][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:34:11] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:34:11,540][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:34:11] "GET /static/images/login/tkcode.png?_t=1544416451.43 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:48:24,534][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:24,781][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:48:25,069][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:48:25] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:48:25,114][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:48:25] "GET /static/images/login/tkcode.png?_t=1544417305.05 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:48:33,175][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:33,358][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 12:48:33,358][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:33,820][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 12:48:33,820][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'50,41,173,39', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:34,103][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 12:48:34,103][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:34,311][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Qktrsy8_2T0Vk9Vc3K40Ebu69tpx37PQhAt7_Qdqb1b0"} (logger.py:61)
+[2018-12-10 12:48:34,312][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:34,494][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"2Zx3oshVaCNwFBddQRnbLcS_BwXQWcOW6MKNHwjnb1b0"} (logger.py:61)
+[2018-12-10 12:48:34,494][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'2Zx3oshVaCNwFBddQRnbLcS_BwXQWcOW6MKNHwjnb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 12:48:34,685][    INFO] --- 出参：{"apptk":"2Zx3oshVaCNwFBddQRnbLcS_BwXQWcOW6MKNHwjnb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 12:48:34,691][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:48:34] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 12:48:34,705][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:48:34] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E9%95%BF%E6%B2%99%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G551%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:48:57,659][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:48:57] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:07,398][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:07] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:15,997][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:15] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:25,043][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:25] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:34,400][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:34] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:44,329][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:44] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:52,892][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:52] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:49:59,965][    INFO] --- 127.0.0.1 - - [10/Dec/2018 12:49:59] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 12:50:26,774][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/qiangpiao.py', reloading (_internal.py:88)
+[2018-12-10 12:50:26,775][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/qiangpiao.py', reloading (_internal.py:88)
+[2018-12-10 13:12:49,711][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:50,093][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:12:50,386][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:12:50] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:12:50,428][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:12:50] "GET /static/images/login/tkcode.png?_t=1544418770.37 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:12:57,802][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:57,978][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:12:57,979][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:58,155][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 13:12:58,155][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'124,113', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:58,339][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 13:12:58,339][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:58,702][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"8jrWplauGvsMvDpFK7A3KZL85cHN3iIDnWvqKwdqb1b0"} (logger.py:61)
+[2018-12-10 13:12:58,703][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:59,328][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"Ojoe3KYJbptexfk8VrkMN9CzkCHt9qr77ToCMg73b1b0"} (logger.py:61)
+[2018-12-10 13:12:59,329][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'Ojoe3KYJbptexfk8VrkMN9CzkCHt9qr77ToCMg73b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:12:59,523][    INFO] --- 出参：{"apptk":"Ojoe3KYJbptexfk8VrkMN9CzkCHt9qr77ToCMg73b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 13:12:59,531][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:12:59] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:12:59,548][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:12:59] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22accountname%22%3A+%22b624345050%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G1718%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:13:38,900][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:13:38,901][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:14:04,613][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:04,993][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:14:05,253][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:05] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:05,293][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:05] "GET /static/images/login/tkcode.png?_t=1544418845.24 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:15,601][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:15,983][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:14:15,984][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:16,286][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 13:14:16,287][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'248,120', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:16,584][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 13:14:16,585][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:16,784][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Oqzc4biJbqSg4nWELWsyyPsYWd_xxrxrLichTwijb1b0"} (logger.py:61)
+[2018-12-10 13:14:16,784][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:16,964][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"kr92VEenLMExFeBmOsagYqfO9At5cpKYwQtRZwhub1b0"} (logger.py:61)
+[2018-12-10 13:14:16,964][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'kr92VEenLMExFeBmOsagYqfO9At5cpKYwQtRZwhub1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:14:17,281][    INFO] --- 出参：{"apptk":"kr92VEenLMExFeBmOsagYqfO9At5cpKYwQtRZwhub1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 13:14:17,287][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:17] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:14:17,301][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:17] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22username%22%3A+%22%E5%8D%9E%E4%B8%9C%E6%B5%B7%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G1718%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:22,677][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:22] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:30,922][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:30] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:41,216][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:41] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:14:41,862][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:14:41] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:15:00,899][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:15:00] "POST /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:15:08,508][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:15:08] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:15:08,516][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:15:08] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E6%B7%B1%E5%9C%B3%E5%8C%97%22%2C+%22username%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E4%B9%98%E8%BD%A6%E4%BA%BA%E5%A7%93%E5%90%8D%22%2C+%22date%22%3A+%222018-12-28%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G551%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:17:57,998][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:17:57,999][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:18:29,456][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:29,799][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:18:30,062][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:30] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:18:30,127][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:30] "GET /static/images/login/tkcode.png?_t=1544419110.05 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:18:37,738][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:38,095][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:18:38,096][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:38,406][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 13:18:38,406][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'184,42', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:38,721][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 13:18:38,722][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:38,923][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"YVvbVgZRYOVO-EFsv80y2r2IXvmZ4y-3NKlzWwkob1b0"} (logger.py:61)
+[2018-12-10 13:18:38,923][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:39,105][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"ckTiiKelZr_oXIEf20iCYtzF9EXJ3yIP8AbrWg36b1b0"} (logger.py:61)
+[2018-12-10 13:18:39,106][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'ckTiiKelZr_oXIEf20iCYtzF9EXJ3yIP8AbrWg36b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:18:39,315][    INFO] --- 出参：{"apptk":"ckTiiKelZr_oXIEf20iCYtzF9EXJ3yIP8AbrWg36b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 13:18:39,319][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:39] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:18:39,330][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:39] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22username%22%3A+%22%E5%8D%9E%E4%B8%9C%E6%B5%B7%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G1718%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:18:46,977][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:46] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:18:55,586][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:18:55] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:00,279][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:00] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:10,122][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:10] "POST /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:13,303][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:13] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:19:13,310][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:13] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22username%22%3A+%22%E5%8D%9E%E4%B8%9C%E6%B5%B7%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%B1%89%E5%8F%A3%22%2C+%22trains%22%3A+%22D3054%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:19,631][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:19] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:29,221][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:29] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:38,636][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:38] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:46,437][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:46] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:19:54,925][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:19:54] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:04,337][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:04] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:13,631][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:13] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:21,989][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:21] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:30,463][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:30] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:39,902][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:39] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:20:50,362][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:20:50] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:21:01,127][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:21:01] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:21:12,333][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:21:12] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:21:24,204][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:21:24] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:21:37,953][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:21:37] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:21:47,273][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:21:47] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:01,512][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:01] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:10,414][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:10] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:20,254][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:20] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:32,036][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:32] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:40,856][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:40] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:22:50,179][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:22:50] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:01,303][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:01] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:12,280][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:12] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:23,202][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:23] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:33,563][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:33] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:40,195][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:23:40,511][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:23:43,306][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:43] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:23:54,818][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:23:54] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:03,632][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:03] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:13,272][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:13] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:24,491][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:24] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:34,202][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:34] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:44,797][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:44] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:24:53,575][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:24:53] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:03,240][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:03] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:13,774][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:13] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:21,436][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:21] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:31,417][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:31] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:40,200][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:40] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:25:54,314][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:25:54] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:26:06,721][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:26:06] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:26:16,225][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:26:16] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:26:27,937][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:26:27] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:26:36,055][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:26:36] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:26:51,378][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:26:51] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:00,445][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:00] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:09,981][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:09] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:19,450][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:19] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:29,324][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:29] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:39,752][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:39] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:48,673][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:48] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:27:56,632][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:27:56] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:28:06,918][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:28:06] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:28:15,214][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:28:15] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:28:27,060][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:28:27] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:28:42,030][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:28:42] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:28:54,246][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:28:54,562][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:28:56,853][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:28:56] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:06,823][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:06] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:16,786][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:16] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:26,187][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:26] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:38,008][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:38] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:46,036][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:46] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:29:58,528][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:29:58] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:08,390][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:08] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:17,802][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:17] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:27,927][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:27] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:37,881][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:37] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:45,469][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:45] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:30:46,527][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:30:46] "GET /query_tricket HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:31:55,836][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:31:55,837][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:32:19,236][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:19,484][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:32:19,768][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:19] "POST /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:19,810][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:19] "GET /static/images/login/tkcode.png?_t=1544419939.75 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:28,292][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:28,485][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:32:28,486][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:28,664][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 13:32:28,664][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'105,113', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:28,985][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 13:32:28,985][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:29,198][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"xchV6Kb32iEss-0Bmu12JEYdosPz5C_BMZP4Rwijb1b0"} (logger.py:61)
+[2018-12-10 13:32:29,199][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:29,381][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"LVHQTxo-kPXMYpGzz6sg277aIvvTRei7J_Sqwwsdb1b0"} (logger.py:61)
+[2018-12-10 13:32:29,382][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'LVHQTxo-kPXMYpGzz6sg277aIvvTRei7J_Sqwwsdb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:32:29,749][    INFO] --- 出参：{"apptk":"LVHQTxo-kPXMYpGzz6sg277aIvvTRei7J_Sqwwsdb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 13:32:29,757][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:29] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:32:29,772][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:29] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E5%8D%97%E4%BA%AC%E5%8D%97%22%2C+%22username%22%3A+%22%E5%8D%9E%E4%B8%9C%E6%B5%B7%22%2C+%22date%22%3A+%222018-12-29%22%2C+%22from_station%22%3A+%22%E6%AD%A6%E6%B1%89%22%2C+%22trains%22%3A+%22G1718%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:33,878][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:33] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:41,395][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:41] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:51,057][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:51] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:32:58,990][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:32:58] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:07,698][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:07] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:15,380][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:15] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:24,119][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:24] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:33,503][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:33] "POST /snap_up_trainTicket2 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:33,636][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/qiangpiao.py', reloading (_internal.py:88)
+[2018-12-10 13:33:33,637][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/init/qiangpiao.py', reloading (_internal.py:88)
+[2018-12-10 13:33:45,460][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:45,716][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:33:45,723][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:45] "POST /snap_up_trainTicket2 HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:33:45,730][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:45,904][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:33:46,160][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:46] "GET /login HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:46,214][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:33:46] "GET /static/images/login/tkcode.png?_t=1544420026.13 HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:33:58,349][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:58,532][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-12-10 13:33:58,533][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:58,830][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-12-10 13:33:58,831][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': u'179,112,113,117', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:59,016][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-12-10 13:33:59,017][    INFO] --- url: /passport/web/login
+入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:59,341][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"Oi3rYCYUjiwx66wGtbkDY1JHGSDjLkBP0RtTEAcgb1b0"} (logger.py:61)
+[2018-12-10 13:33:59,341][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:33:59,939][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"dCPGGL_rDJk7G_vMchEjQkDXGDmo2j-K3cRy9Q36b1b0"} (logger.py:61)
+[2018-12-10 13:33:59,939][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'dCPGGL_rDJk7G_vMchEjQkDXGDmo2j-K3cRy9Q36b1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-12-10 13:34:00,256][    INFO] --- 出参：{"apptk":"dCPGGL_rDJk7G_vMchEjQkDXGDmo2j-K3cRy9Q36b1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-12-10 13:34:00,262][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:34:00] "POST /login HTTP/1.1" 302 - (_internal.py:88)
+[2018-12-10 13:34:00,275][    INFO] --- 127.0.0.1 - - [10/Dec/2018 13:34:00] "GET /snap_up_trainTicket?qiangpiao=%7B%22to_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%88%B0%E8%BE%BE%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22username%22%3A+%22%E5%8D%9E%E4%B8%9C%E6%B5%B7%22%2C+%22date%22%3A+%222018-12-10%22%2C+%22from_station%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%A7%8B%E5%8F%91%E7%AB%99%E5%90%8D%E7%A7%B0%22%2C+%22trains%22%3A+%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%8A%A2%E7%A5%A8%E8%BD%A6%E6%AC%A1%22%7D HTTP/1.1" 200 - (_internal.py:88)
+[2018-12-10 13:40:38,309][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)
+[2018-12-10 13:40:38,310][    INFO] ---  * Detected change in '/Users/biandonghai/PycharmProjects/12306-master/flask_test/app2.py', reloading (_internal.py:88)

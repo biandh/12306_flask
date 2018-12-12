@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢票页面</title>
+</head>
+<body>
+<h2>{{username}} 欢迎你！</h2>
+<center>
+<form method="post", action="{{url_for('snap_up_trainTicket2')}}">
+  <input type="text", value="{{qiangpiao.trains}}", name="trains">
+    <input type="text", value="{{qiangpiao.from_station}}", name="from_station">
+    <input type="text", value="{{qiangpiao.to_station}}", name="to_station">
+    <input type="text", value="{{qiangpiao.username}}", name="person_name">
+    <input type="text", value="二等座", name="seat">
+    <input type="date", value="{{qiangpiao.date}}", name="date">
+    <input type="submit" name="submit" value="开始抢票" style="background-color: forestgreen">
+</form>
+    <div>{{message}}</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢票页面</title>
+    <script type="text/javascript">
+        function test() {
+            var result = confirm("确定停止抢票？");
+            if (result == true) {
+                document.getElementById('click_status').value = '1'
+                window.location = 'query_tricket'
+                alert("OK 抢票结束！");
+            } else {
+                document.getElementById('click_status').value = '0'
+                alert("抢票继续！");
+            }
+        }
+    </script>
+
+</head>
+<body>
+<h2>{{username}} 欢迎你！</h2>
+<center>
+<form method="post" id="qiangpiao">
+    <input type="text", value="{{form.trains}}", name="trains" >
+    <input type="text", value="{{form.from_station}}", name="from_station">
+    <input type="text", value="{{form.to_station}}", name="to_station">
+    <input type="text", value="{{form.person_name}}", name="person_name">
+    <input type="text", value="{{form.seat}}", name="seat">
+    <input type="date", value="{{form.date}}", name="date">
+    <input type="hidden", value="{{log_str}}", name="log_info">
+    <input type="hidden", name="click_status" value="0" id="click_status">
+    <input type="button" name="stop" value="停止抢票" style="background-color: cadetblue" onclick="test()">
+    <input type="submit" name="fresh" value="X秒后自动刷新" style="background-color: #2676E3" id="fresh">
+</form>
+    {% for info in log_info%}
+    <br>{{info}}</br>
+    {% endfor %}
+</center>
+<script>
+    var times = 3;//剩余时间,单位秒
+    var timeDiv = document.getElementById("fresh");
+    var timeObj = null;
+    function timer(){
+        if(times == 0){
+            //倒计时结束，提交表单
+            document.getElementById("qiangpiao").submit();
+            window.clearInterval(timeObj);
+            return;
+        }
+        var t = times +"秒后自动刷新"
+        timeDiv.value = t;
+        times --;
+    }
+    timeObj = window.setInterval(timer,1000);
+</script>
+</body>
+</html>

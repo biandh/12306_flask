@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢票页面</title>
+
+</head>
+<body>
+<h2>{{username}} 欢迎你！</h2>
+<center>
+<form method="post" id="qiangpiao">
+    <input type="text", value="{{form.trains}}", name="trains" >
+    <input type="text", value="{{form.from_station}}", name="from_station">
+    <input type="text", value="{{form.to_station}}", name="to_station">
+    <input type="text", value="{{form.person_name}}", name="person_name">
+    <input type="text", value="{{form.seat}}", name="seat">
+    <input type="date", value="{{form.date}}", name="date">
+    <input type="hidden", value="{{log_str}}", name="log_info">
+    <input type="hidden", name="click_status" value="0" id="click_status">
+    <input type="button" name="stop" value="停止抢票" style="background-color: cadetblue" onclick="test()">
+    <input type="submit" name="fresh" value="自动刷新" style="background-color: #2676E3" id="fresh">
+</form>
+    {% for info in log_info%}
+    <br>{{info}}</br>
+    {% endfor %}
+</center>
+</body>
+</html>

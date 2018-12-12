@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+watchdog = "*"
+
+[packages]
+"beautifulsoup4" = "==4.5.3"
+"bs4" = "==0.0.1"
+pyyaml = "==3.12"
+six = "==1.10.0"
+requests = "==2.18.4"
+pillow = "==5.0.0"
+wrapcache = "==1.0.8"
+flask = "*"
+flask-wtf = "*"
+flask-ckeditor = "*"
+
+[requires]
+python_version = "2.7"

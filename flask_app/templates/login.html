@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>请登录</title>
+    <link href="../static/css/test.css" rel="stylesheet">
+
+</head>
+
+<body>
+<center>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <H2>登录12306</H2>
+     <br/>
+<div id="lgcode-2018" class="lgcode-2018"></div>
+
+<form method="post" id="login_form" onsubmit='return login()' action="{{url_for('login')}}">
+    {{ form.csrf_token }}
+    用户名:{{ form.username }}
+    <br/>
+    <font>密&emsp;码</font>:{{ form.password }}
+    <br/>
+    <font size="1">记住登录</font>:{{form.remember}}&emsp; &emsp; &emsp; &emsp; &emsp; &thinsp;&thinsp;
+    <br/>
+    <img id="123"
+         src="{{url_for('static',filename='images/login/tkcode.png', _t=cur_time)}}"
+         onclick="xxx(event)"
+    />
+    <br/>
+     <input type="hidden" value="{{qiangpiao.from_station}}" name="from_station"/>
+     <input type="hidden" value="{{qiangpiao.to_station}}" name="to_station"/>
+     <input type="hidden" value="{{qiangpiao.trains}}" name="trains"/>
+    <input type="hidden" value="123" name="rand_code" id="rand_code"/>
+     <input type="hidden" value="{{qiangpiao.date}}" name="date"/>
+    <button type="submit">登录</button>
+</form>
+ </center>
+  <script type="text/javascript" src="../static/js/framework/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="../static/js/framework/jquery.SuperSlide2.js"></script>
+  <script type="text/javascript">
+
+     function login() {
+         var rand_code = document.getElementById('rand_code')
+         // alert(rand_code.value)
+         var randCode = popup_checkPassCode_location()
+         rand_code.value = randCode
+         // alert(randCode)
+         return true
+     }
+     function popup_checkPassCode_location() {
+         var result = false;
+         var randCode = '';
+         var obj = $('#lgcode-2018 div');
+
+         for (var i = 0; i < obj.length; i++) {
+             randCode += $(obj[i]).attr('randcode') + ',';
+         }
+         randCode = randCode.substring(0, randCode.length - 1);
+         return randCode
+     }
+     function xxx(e) {
+        var popup_defaultPasscodeHeight = 30;
+        var xPage = (navigator.appName == 'Netscape') ? e.pageX : e.clientX + (document.documentElement.scrollLeft || window.pageXOffset || document.body.scrollLeft);
+        var yPage = (navigator.appName == 'Netscape') ? e.pageY : e.clientY + (document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
+        identifyImage = document.getElementById('123');
+        img_x = popup_locationLeft(identifyImage);
+        img_y = popup_locationTop(identifyImage);
+        // alert(xPage)
+        // alert(yPage)
+        var xPos = xPage-img_x;
+        var yPos = yPage-img_y - popup_defaultPasscodeHeight;
+        if(xPos > 0 && yPos > 0) {
+            var html = '<div randCode="' + xPos + ',' + yPos + '" class="lgcode-active" style="top: ' + (yPage-10) + 'px; left: ' + (xPage-15) + 'px;"></div>';
+            $('#lgcode-2018').append(html);
+        }
+        $('.lgcode-active').click(function(e) {
+            $(this).remove();
+            e.stopPropagation();
+        });
+    }
+
+    function popup_locationTop(element) {
+        offsetTotal = element.offsetTop;
+        scrollTotal = 0;
+        if (element.tagName != 'BODY') {
+           if (element.offsetParent != null) {
+              return offsetTotal + scrollTotal + popup_locationTop(element.offsetParent);
+           }
+        }
+        return offsetTotal + scrollTotal;
+    }
+
+    function popup_locationLeft(element) {
+        offsetTotal = element.offsetLeft;
+        scrollTotal = 0;
+        if (element.tagName != 'BODY') {
+           if (element.offsetParent != null) {
+              return offsetTotal+scrollTotal + popup_locationLeft(element.offsetParent);
+           }
+        }
+        return offsetTotal + scrollTotal;
+    }
+</script>
+</body>
+</html>

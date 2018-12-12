@@ -1,0 +1,240 @@
+[2018-11-18 12:53:03,383][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:03,687][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 12:53:03,688][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '105,46', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:04,113][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-11-18 12:53:04,113][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:04,527][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"vM68kdg1vI7ZlNuSJb6nLawgsqz4UixS33UQ3whub1b0"} (logger.py:61)
+[2018-11-18 12:53:04,528][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:04,832][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"IlHunLEj4eSL5n1CXsOMIHwPYtyLSjNZfI-Dzwubb1b0"} (logger.py:61)
+[2018-11-18 12:53:04,832][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'IlHunLEj4eSL5n1CXsOMIHwPYtyLSjNZfI-Dzwubb1b0'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:05,053][    INFO] --- 出参：{"apptk":"IlHunLEj4eSL5n1CXsOMIHwPYtyLSjNZfI-Dzwubb1b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-11-18 12:53:05,053][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:53:05,365][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 12:53:15,411][    INFO] --- 武昌-长沙 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:19,608][    INFO] --- 广水-岳阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:23,209][    INFO] --- 广水-长沙 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:26,854][    INFO] --- 广水-衡阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:30,991][    INFO] --- 广水-永州 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:34,954][    INFO] --- 孝感-岳阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:38,693][    INFO] --- 孝感-长沙 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:42,370][    INFO] --- 孝感-衡阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:46,957][    INFO] --- 孝感-永州 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:50,396][    INFO] --- 武昌-岳阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:54,102][    INFO] --- 武昌-衡阳 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:53:57,759][    INFO] --- 武昌-永州 车次坐席查询为空 (GetTrainStatus.py:220)
+[2018-11-18 12:54:41,071][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:41,346][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 12:54:41,348][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '181,114,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:41,706][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-11-18 12:54:41,707][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:41,922][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"W4yACnzL6dmCm8VoVHqbjmAnG-X1qDzn4zFu_Qdqb2b0"} (logger.py:61)
+[2018-11-18 12:54:41,922][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:42,129][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"O35qA4dveN6-FSwgNS2mmhMOMQuawKQVyEiD8gy0b2b0"} (logger.py:61)
+[2018-11-18 12:54:42,129][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'O35qA4dveN6-FSwgNS2mmhMOMQuawKQVyEiD8gy0b2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:42,423][    INFO] --- 出参：{"apptk":"O35qA4dveN6-FSwgNS2mmhMOMQuawKQVyEiD8gy0b2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-11-18 12:54:45,087][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:54:45,356][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 12:55:51,128][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:51,335][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 12:55:51,336][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '42,46,181,114', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:51,542][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-11-18 12:55:51,543][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:51,787][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"7bSzIKGtH77-Qi9PmQBaKbAhP1PVfWbovM0mLAetb2b0"} (logger.py:61)
+[2018-11-18 12:55:51,788][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:52,010][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"ejZkeMKsoL-8r2sc6DTr9l1OZINPolof7YjM5Aubb2b0"} (logger.py:61)
+[2018-11-18 12:55:52,014][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'ejZkeMKsoL-8r2sc6DTr9l1OZINPolof7YjM5Aubb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:52,261][    INFO] --- 出参：{"apptk":"ejZkeMKsoL-8r2sc6DTr9l1OZINPolof7YjM5Aubb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-11-18 12:55:52,264][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 12:55:52,466][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 13:01:28,677][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:28,844][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 13:01:28,845][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48,252,111', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:29,050][    INFO] --- 出参：{"result_message":"验证码校验失败","result_code":"5"} (logger.py:61)
+[2018-11-18 13:01:36,822][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:36,990][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 13:01:36,990][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': '256,48', 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:37,170][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
+[2018-11-18 13:01:37,171][    INFO] --- url: /passport/web/login
+入参: {'username': 'b624345050', 'password': '530530', 'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:37,354][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"apsUHAj3hwAJq9lu2yBdHJRSShJMTqbrmyalfw27b2b0"} (logger.py:61)
+[2018-11-18 13:01:37,355][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:37,524][    INFO] --- 出参：{"result_message":"验证通过","result_code":0,"apptk":null,"newapptk":"ovMSnBafBCfUCRt9vHdC_jQYtkY1j6jciYEcYwdqb2b0"} (logger.py:61)
+[2018-11-18 13:01:37,525][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': u'ovMSnBafBCfUCRt9vHdC_jQYtkY1j6jciYEcYwdqb2b0'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:37,700][    INFO] --- 出参：{"apptk":"ovMSnBafBCfUCRt9vHdC_jQYtkY1j6jciYEcYwdqb2b0","result_code":0,"result_message":"验证通过","username":"卞东海"} (logger.py:61)
+[2018-11-18 13:01:37,701][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:01:37,879][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 13:01:45,102][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "24000000Z50A", "Z5", "BXP", "NNZ", "WCN", "CSQ", "02:58", "06:13", "03:15", "N", "6WswHVN3e%2B8o0xYiNE7b0gwPpcC2XhgY", "20181127", "3", "P4", "04", "05", "0", "0", "", "", "", "无", "", "", "", "", "无", "", "", "", "", "", "4030", "43", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,103][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "430000K76812", "K769", "HOY", "GZQ", "WCN", "CSQ", "03:41", "08:38", "04:57", "N", "MeRB3Vx7cetjvUOCkja27VzMMjj5dv7bDxoAlI54wXUQnsXONr0rd6nKwvI%3D", "20181127", "3", "Y2", "11", "15", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,103][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "470000T1790C", "T179", "JNK", "GZQ", "WCN", "CSQ", "04:28", "08:17", "03:49", "N", "MeRB3Vx7cetjvUOCkja27VzMMjj5dv7bDxoAlI54wXUQnsXONr0rd6nKwvI%3D", "20181127", "3", "KA", "10", "12", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,103][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "列车停运", "760000Z12407", "Z121", "CDW", "GZQ", "HKN", "CSQ", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181127", "", "W1", "07", "09", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,104][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "WCN", "CSQ", "09:22", "13:43", "04:21", "N", "MeRB3Vx7cetjvUOCkja27VzMMjj5dv7bDxoAlI54wXUQnsXONr0rd6nKwvI%3D", "20181127", "3", "Y2", "07", "09", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,104][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G5510B", "G551", "LBN", "IOQ", "WHN", "CWQ", "09:51", "11:27", "01:36", "N", "AhLdcG4Bmi2RkQKSoF87Y5ug5t83KWcd5h8bpPudWEsdI8a5", "20181128", "3", "N2", "06", "09", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,104][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G103802", "G1038", "HAN", "IOQ", "HKN", "CWQ", "09:53", "12:09", "02:16", "N", "Q8Kk8k8NPDNm5U5OGqTYCIpZXCUhL1v9SuvZA8QeQ4d3OUVp", "20181128", "3", "N2", "06", "11", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,104][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "39000G116400", "G1164", "GDN", "IZQ", "HKN", "CWQ", "10:25", "12:33", "02:08", "N", "tLO83gghwDZhBey0wpGwi3zzUSr0aj93Fd6bQKh%2FZL8Uv%2F1Q", "20181128", "3", "N7", "02", "06", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,105][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G116804", "G1168", "HAN", "IZQ", "HKN", "CWQ", "11:36", "13:43", "02:07", "N", "pJWOcLRaHfFoEvaZdfoSqVEiDgGLIk5uA90tngUH9XjDwGtE", "20181128", "3", "N2", "05", "09", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,105][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G114806", "G1148", "HAN", "IZQ", "HKN", "CWQ", "11:52", "13:57", "02:05", "N", "nQHiBslNLhorkaHvBLx4uNP79UcL%2Bk4NLslVwkIioYjoNgt1", "20181128", "3", "N2", "04", "08", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,105][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "2400000G7930", "G79", "BXP", "XJA", "WHN", "CWQ", "14:20", "15:38", "01:18", "N", "AhLdcG4Bmi2RkQKSoF87Y5ug5t83KWcd5h8bpPudWEsdI8a5", "20181128", "3", "X1", "04", "05", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,105][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G55307", "G553", "OYN", "IZQ", "WHN", "CWQ", "16:30", "17:56", "01:26", "N", "AhLdcG4Bmi2RkQKSoF87Y5ug5t83KWcd5h8bpPudWEsdI8a5", "20181128", "3", "N4", "03", "05", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,106][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "WCN", "CSQ", "17:06", "20:59", "03:53", "N", "MeRB3Vx7cetjvUOCkja27VzMMjj5dv7bDxoAlI54wXUQnsXONr0rd6nKwvI%3D", "20181128", "3", "F1", "07", "08", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,106][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "列车停运", "4e000G11350E", "G1135", "WHN", "IZQ", "WHN", "CWQ", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181128", "", "N6", "01", "03", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,106][    INFO] --- 车次配置信息: 武昌 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "420000K6440F", "K641", "SNN", "GZQ", "WCN", "CSQ", "23:55", "03:40", "03:45", "N", "MeRB3Vx7cetjvUOCkja27VzMMjj5dv7bDxoAlI54wXUQnsXONr0rd6nKwvI%3D", "20181128", "3", "N7", "09", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:45,865][    INFO] --- 车次配置信息: 广水 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "GSN", "YYQ", "05:58", "12:06", "06:08", "N", "xsqVyDM4NCozTk2x0XiMFqy%2F3TGz9AwKCXjPdAdBcLPakMWec6DPqtJcUkM%3D", "20181127", "3", "Y2", "06", "08", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:46,613][    INFO] --- 车次配置信息: 广水 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "GSN", "CSQ", "05:58", "13:43", "07:45", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181127", "3", "Y2", "06", "09", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:47,377][    INFO] --- 车次配置信息: 广水 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "GSN", "HYQ", "05:58", "16:05", "10:07", "N", "9VGyy9Wsd2QS7uBMOkzB9tJJy3zYZsHJvxdyaYxjvVI01ZnqO848L99OV0Y%3D", "20181127", "3", "Y2", "06", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:48,095][    INFO] --- 车次配置信息: 广水 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "GSN", "AOQ", "05:58", "18:53", "12:55", "N", "g%2Bd3SnPhBrp6gzy5Eq4zATL6rGgQn4nznpuJl5niuOcsnDutccVaBIqfJp4%3D", "20181127", "3", "Y2", "06", "14", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:48,878][    INFO] --- 车次配置信息: 孝感 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G55307", "G553", "OYN", "IZQ", "XJN", "YIQ", "15:50", "17:20", "01:30", "N", "gHzop5%2BzdIl%2FETQOQrbhgX4qw8pcOCPsl7W%2BQu8Z2feDfoTW", "20181128", "3", "N4", "02", "04", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:49,559][    INFO] --- 车次配置信息: 孝感 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G5510B", "G551", "LBN", "IOQ", "XJN", "CWQ", "09:14", "11:27", "02:13", "N", "ghV1j8LTuf2k%2Bdz5uVyiaRDd%2FDbDM6jBTcpkYLRA9159wWWq", "20181128", "3", "N2", "05", "09", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:49,561][    INFO] --- 车次配置信息: 孝感 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "8d0000G83405", "G831", "LAJ", "IZQ", "XJN", "CWQ", "15:33", "17:39", "02:06", "N", "ghV1j8LTuf2k%2Bdz5uVyiaRDd%2FDbDM6jBTcpkYLRA9159wWWq", "20181128", "3", "J1", "14", "17", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:49,562][    INFO] --- 车次配置信息: 孝感 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G55307", "G553", "OYN", "IZQ", "XJN", "CWQ", "15:50", "17:56", "02:06", "N", "ghV1j8LTuf2k%2Bdz5uVyiaRDd%2FDbDM6jBTcpkYLRA9159wWWq", "20181128", "3", "N4", "02", "05", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:49,562][    INFO] --- 车次配置信息: 孝感 --> 长沙 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "XGN", "CSQ", "15:57", "20:59", "05:02", "N", "3FCtOQaCXol3oFPu3TelUV%2FZZGhn%2FF5LwsHJxQC1MO58XdK%2BZeUnACs0pDw%3D", "20181128", "3", "F1", "06", "08", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:50,368][    INFO] --- 车次配置信息: 孝感 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G5510B", "G551", "LBN", "IOQ", "XJN", "HVQ", "09:14", "12:16", "03:02", "N", "SfgKNoKGHtxK8MQMvEkX3NPoMGkxZP4DvX543cFODMkEw2tT", "20181128", "3", "N2", "05", "11", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:50,369][    INFO] --- 车次配置信息: 孝感 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "8d0000G83405", "G831", "LAJ", "IZQ", "XJN", "HVQ", "15:33", "18:20", "02:47", "N", "SfgKNoKGHtxK8MQMvEkX3NPoMGkxZP4DvX543cFODMkEw2tT", "20181128", "3", "J1", "14", "18", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:50,371][    INFO] --- 车次配置信息: 孝感 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "XGN", "HYQ", "15:57", "23:32", "07:35", "N", "yRUmWpdgP2wHrB3RLL7Op2fRB0qIrGG96%2FbhUimLMeOCCbV7Ma2bFgM08nU%3D", "20181128", "3", "F1", "06", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10403010", "1431", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:51,094][    INFO] --- 车次配置信息: 孝感 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "XGN", "AOQ", "15:57", "01:38", "09:41", "N", "Y8YNXXHZlUZVGEOXpsufB1PBwMZTtT6xgUX6uCsnELiaL7pmP6FEZU2vaII%3D", "20181128", "3", "F1", "06", "12", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10403010", "1431", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,247][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "430000K76812", "K769", "HOY", "GZQ", "WCN", "YYQ", "03:41", "07:05", "03:24", "N", "u33nSc%2F9B7iP6DBdFQnvzb2ncfm8SlNDEbl1zPSO%2FwOetLPVPwm7Scwqgfk%3D", "20181127", "3", "Y2", "11", "14", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,247][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "470000T1790C", "T179", "JNK", "GZQ", "WCN", "YYQ", "04:28", "06:51", "02:23", "N", "u33nSc%2F9B7iP6DBdFQnvzb2ncfm8SlNDEbl1zPSO%2FwOetLPVPwm7Scwqgfk%3D", "20181127", "3", "KA", "10", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,247][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "列车停运", "760000Z12407", "Z121", "CDW", "GZQ", "HKN", "YYQ", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181127", "null", "W1", "07", "08", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,248][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G103802", "G1038", "HAN", "IOQ", "HKN", "YIQ", "09:53", "11:28", "01:35", "N", "OAvd50nBldTNbFSJFoEzYiLe%2FFZ3osHzJqgXX7KJP7bNscNg", "20181128", "3", "N2", "06", "10", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,248][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "39000G116400", "G1164", "GDN", "IZQ", "HKN", "YIQ", "10:25", "11:56", "01:31", "N", "z3qLmFfTM5cBevT%2F3yWVvTAwPphB6YXxWLR8wCdecX548qZq", "20181128", "3", "N7", "02", "05", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,248][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G116804", "G1168", "HAN", "IZQ", "HKN", "YIQ", "11:36", "13:03", "01:27", "N", "0oMAVpnwq2xiZ%2FE4PSrQwIXivMIoR43C5OHnQh6aDqXU2WDd", "20181128", "3", "N2", "05", "08", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,248][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G114806", "G1148", "HAN", "IZQ", "HKN", "YIQ", "11:52", "13:21", "01:29", "N", "sGoMUx5uqV5L7Q24TTXKsEO3PSN5WS2jtpxTrAUW3QmeA0nA", "20181128", "3", "N2", "04", "07", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,249][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G55307", "G553", "OYN", "IZQ", "WHN", "YIQ", "16:30", "17:20", "00:50", "N", "1CkRq392XhEjBxmPLKaUW%2FKa3Zvy5vALpt8cZpySVTQ2gEQD", "20181128", "3", "N4", "03", "04", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,249][    INFO] --- 车次配置信息: 武昌 --> 岳阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "420000K6440F", "K641", "SNN", "GZQ", "WCN", "YYQ", "23:55", "02:10", "02:15", "N", "u33nSc%2F9B7iP6DBdFQnvzb2ncfm8SlNDEbl1zPSO%2FwOetLPVPwm7Scwqgfk%3D", "20181128", "3", "N7", "09", "10", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,995][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "24000000Z50A", "Z5", "BXP", "NNZ", "WCN", "HYQ", "02:58", "08:14", "05:16", "N", "0c1A%2F8zrcE17lsJznFhuHWyco6FqJtWi", "20181127", "3", "P4", "04", "06", "0", "0", "", "", "", "无", "", "", "", "", "无", "", "", "", "", "", "4030", "43", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,996][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "430000K76812", "K769", "HOY", "GZQ", "WCN", "HYQ", "03:41", "11:14", "07:33", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181127", "3", "Y2", "11", "18", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,996][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "470000T1790C", "T179", "JNK", "GZQ", "WCN", "HYQ", "04:28", "10:25", "05:57", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181127", "3", "KA", "10", "14", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,996][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "WCN", "HYQ", "09:22", "16:05", "06:43", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181127", "3", "Y2", "07", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,996][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "390000G5510B", "G551", "LBN", "IOQ", "WHN", "HVQ", "09:51", "12:16", "02:25", "N", "UYKs0Cv3%2BJP%2F9s0asc2xxKYMmBpQbzOFwxsoaUzznRhi2a6P", "20181128", "3", "N2", "06", "11", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,997][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G116804", "G1168", "HAN", "IZQ", "HKN", "HVQ", "11:36", "14:31", "02:55", "N", "6AiNivjIePu97E0GvjzhPdx2U6%2B1KZ9CAaQIFCPY2xalZwSX", "20181128", "3", "N2", "05", "11", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O090M0", "O9M", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,997][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "42000G114806", "G1148", "HAN", "IZQ", "HKN", "HVQ", "11:52", "14:45", "02:53", "N", "boq9lZsNEMkOq63kcij97XfPS%2FxouD6J8zPT4XtE1LTu4cYk", "20181128", "3", "N2", "04", "10", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,997][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "240000G4210I", "G421", "BXP", "NFZ", "WHN", "HVQ", "14:44", "17:06", "02:22", "N", "UYKs0Cv3%2BJP%2F9s0asc2xxKYMmBpQbzOFwxsoaUzznRhi2a6P", "20181128", "3", "P3", "10", "14", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,998][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "4p000G205800", "G2055", "JGK", "IZQ", "WHN", "HVQ", "16:43", "18:49", "02:06", "N", "UYKs0Cv3%2BJP%2F9s0asc2xxKYMmBpQbzOFwxsoaUzznRhi2a6P", "20181128", "3", "KA", "15", "18", "1", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,998][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "WCN", "HYQ", "17:06", "23:32", "06:26", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181128", "3", "F1", "07", "11", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,998][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "列车停运", "4e000G11350E", "G1135", "WHN", "IZQ", "WHN", "HVQ", "24:00", "24:00", "99:59", "IS_TIME_NOT_BUY", "", "20181128", "", "N6", "01", "05", "0", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:52,998][    INFO] --- 车次配置信息: 武昌 --> 衡阳 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "420000K6440F", "K641", "SNN", "GZQ", "WCN", "HYQ", "23:55", "05:47", "05:52", "N", "Tvb9bTIKePelcqvMR4TwN62beaaCV7m4GsuPwMSiYYcdiMPDXAOZqmyq4t0%3D", "20181128", "3", "N7", "09", "12", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:53,748][    INFO] --- 车次配置信息: 武昌 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "24000000Z50A", "Z5", "BXP", "NNZ", "WCN", "AOQ", "02:58", "09:42", "06:44", "N", "qMMzWxpt2G6bbTilw0I1y3lebGKmaICx", "20181127", "3", "P4", "04", "07", "0", "0", "", "", "", "无", "", "", "", "", "无", "", "", "", "", "", "4030", "43", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:53,748][    INFO] --- 车次配置信息: 武昌 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "410000K3180T", "K315", "XAY", "NNZ", "WCN", "AOQ", "09:22", "18:53", "09:31", "N", "%2FO%2BaUbUkY7zPEbXPUo9OVt%2FnfyRcy%2F0uq%2BL0OgB8CkU06D261BSA1G2iB%2FI%3D", "20181127", "3", "Y2", "07", "14", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "1"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:53,748][    INFO] --- 车次配置信息: 武昌 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "240000G4210I", "G421", "BXP", "NFZ", "WHN", "AOQ", "14:44", "18:08", "03:24", "N", "sAmxMSo1%2B4Mo%2BSXbV7AEWbWjjlD7cscosyraLVFXl0cJgtpA", "20181128", "3", "P3", "10", "16", "0", "0", "", "", "", "", "", "", "", "", "", "", "无", "无", "无", "", "O0M090", "OM9", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:01:53,749][    INFO] --- 车次配置信息: 武昌 --> 永州 时间: 2018-11-28 有误，或者返回数据异常，请检查: ["", "预订", "380000K4570I", "K457", "ZZF", "VUQ", "WCN", "AOQ", "17:06", "01:38", "08:32", "N", "%2FO%2BaUbUkY7zPEbXPUo9OVt%2FnfyRcy%2F0uq%2BL0OgB8CkU06D261BSA1G2iB%2FI%3D", "20181128", "3", "F1", "07", "12", "0", "0", "", "", "", "无", "", "", "无", "", "无", "无", "", "", "", "", "10401030", "1413", "0"]  (GetTrainStatus.py:228)
+[2018-11-18 13:08:59,719][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:08:59,924][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 13:11:14,185][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:14,685][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 13:11:14,685][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:14,904][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-11-18 13:11:33,010][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:33,204][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 13:11:43,197][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:43,436][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 13:11:43,437][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:43,646][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
+[2018-11-18 13:11:48,310][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:48,470][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":false},"messages":[],"validateMessages":{}} (logger.py:61)
+[2018-11-18 13:11:56,962][    INFO] --- url: /passport/web/auth/uamtk
+入参: {'appid': 'otn'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:57,141][    INFO] --- 出参：{"result_message":"用户未登录","result_code":1} (logger.py:61)
+[2018-11-18 13:11:57,142][    INFO] --- url: /passport/captcha/captcha-check
+入参: {'answer': None, 'rand': 'sjrand', 'login_site': 'E'}
+请求方式: post
+ (logger.py:61)
+[2018-11-18 13:11:57,319][    INFO] --- 出参：{"result_message":"验证码校验失败,信息为空","result_code":"8"} (logger.py:61)
