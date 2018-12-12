@@ -23,7 +23,7 @@
 
    2. 火车票购票
 
-      与之前程序相同，修复了12306更新后地址不能用问题
+      后台抢票程序与上面参考地址相同，但修复了12306更新后不能获取到状态问题
 
       <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/4.jpg" width="300" height="200"/>
       <br/>
