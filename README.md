@@ -19,7 +19,7 @@
 
       1.3 换乘查询(目前只支持1次换乘)
 
-      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/6.jpg" width="300" height="150"/>
+      <img src="https://github.com/biandh/12306_flask/raw/master/flask_app/downloads/6.jpg" width="300" height="100"/>
       <br/>
       注意：越站和换乘只能选择一个，越站需要输入越站 车次，换乘填 1 即代表换乘一次
 
