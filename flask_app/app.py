@@ -1,18 +1,30 @@
+#!/usr/bin/env python
 # -*- coding: utf8 -*-
+"""
+Author: biandh
+Date: 2018/12/12 15:00:00
+Desc: flask前端注册函数
+"""
+
 import sys
 import json
 import logging
 import time
 import datetime
 import re
-from urllib import quote
 reload(sys)
 sys.setdefaultencoding('utf8')
-from flask import Flask, redirect
-from flask import url_for, flash
-from flask import request, session, g, render_template
+from flask import Flask
+from flask import redirect
+from flask import url_for
+from flask import flash
+from flask import request
+from flask import session
+from flask import g
+from flask import render_template
 
-from form.forms import QueryTricket, LoginForm
+from form.forms import QueryTricket
+from form.forms import LoginForm
 import os
 from flask_ckeditor import CKEditor
 
@@ -43,11 +55,15 @@ check_user_obj = checkUser(ticket_obj)
 
 
 def to_string(en):
+    """to string
+    """
     return json.dumps(en, ensure_ascii=False)
 
 
 @app.template_global()
 def link_to_12306(from_s, to_s, date):
+    """规范化站点名称
+    """
     rule = u'【(.+?)】'
     if u'【' in from_s:
         from_s = re.findall(rule, from_s)[0]
@@ -62,16 +78,22 @@ def link_to_12306(from_s, to_s, date):
     url = base_url % (from_s, from_s_en, to_s, to_s_en, date)
     return url
 
+
 @app.template_global()
 def remove_station_name_decotate(from_s):
+    """清洗站点名称
+    """
     rule = u'【(.+?)】'
     ret = re.findall(rule, from_s)
     if len(ret) > 0:
         return ret[0]
     return from_s
 
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    """登录接口
+    """
     to_day = datetime.datetime.today().strftime('%Y-%m-%d')
     form = LoginForm()
     qiangpiao_info = {}
@@ -121,6 +143,8 @@ def login():
 
 @app.route('/login2/<form>', methods=['GET', 'POST'])
 def login2(form):
+    """抢票后出现登录超时时调用
+    """
     # form = '{}'
     to_day = datetime.datetime.today().strftime('%Y-%m-%d')
     form = json.loads(form)
@@ -141,6 +165,8 @@ def login2(form):
 
 @app.route('/snap_up_trainTicket', methods=['GET', 'POST'])
 def snap_up_trainTicket():
+    """抢票开始接口
+    """
     # form = LoginForm()
     qiangpiao = json.loads(request.args.get('qiangpiao', '{}'))
     if not check_user_obj.user_is_connecting() or not session['is_check']:
@@ -152,6 +178,8 @@ def snap_up_trainTicket():
 
 
 def read(usename, filename):
+    """获取抢票日志
+    """
     qiangpiao_log = []
     name = '../log/' + usename.encode('utf8') + '/' + filename.encode('utf8')
     try:
@@ -164,6 +192,8 @@ def read(usename, filename):
 
 
 def write(usename, filename, log_info):
+    """记录抢票日志
+    """
     name = '../log/' + usename.encode('utf8') + '/' + filename.encode('utf8')
     fp = open(name, 'a+')
     for info in log_info:
@@ -173,6 +203,8 @@ def write(usename, filename, log_info):
 
 @app.route('/snap_up_trainTicket2', methods=['POST', 'GET'])
 def snap_up_trainTicket2():
+    """抢票接口
+    """
     # form = LoginForm()
     r = request
     form = request.form
@@ -193,7 +225,7 @@ def snap_up_trainTicket2():
     key = qiangpiao_info['trains'] + '_' + qiangpiao_info['person_name'] + \
           '_' + qiangpiao_info['date']
     qiangpiao_info['date'] = [qiangpiao_info['date']]
-    qiangpiao_info['person_name'] = re.split(u'，|,|、|/| ',qiangpiao_info['person_name'])
+    qiangpiao_info['person_name'] = re.split(u'，|,|、|/| ', qiangpiao_info['person_name'])
     qiangpiao_info['seat'] = [qiangpiao_info['seat']]
 
     if session.get(key, None) is None:
@@ -236,9 +268,11 @@ def snap_up_trainTicket2():
                            log_info=log_info[::-1][:100])
 
 
-@app.route('/', methods=['GET','POST'])
-@app.route('/query_tricket', methods=['GET','POST'])
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/query_tricket', methods=['GET', 'POST'])
 def query_tricket():
+    """车票查询接口
+    """
     col_name = [u'车次', u'发站', u'到站', u'发车', u'到达', u'耗时',
                 u'无座', u'硬座', u'硬卧', u'软卧', u'高软', u'二等',
                 u'一等', u'商务', u'动卧', u'--']
@@ -257,7 +291,8 @@ def query_tricket():
             num = int(form.huancheng_num.data)
         q_tricket.station_dates = date_str
         if yuezhan_trains != '' and len(yuezhan_trains) > 2:
-            queryResult = q_tricket.get_trains_status(from_station, to_station, [yuezhan_trains], True)
+            queryResult = q_tricket.get_trains_status(from_station, to_station,
+                                                      [yuezhan_trains], True)
             queryResult.insert(0, [col_name])
         else:
             queryResult, types = q_tricket.train_transfer_status(from_station, to_station, num)
@@ -266,8 +301,12 @@ def query_tricket():
             else:
                 queryResult.insert(0, [col_name, col_name])
         if types != 0:
-            return render_template('query_result_span.html', date=date_str[0], queryResult=queryResult)
-        return render_template('query_result.html', date = date_str[0], queryResult=queryResult,
+            return render_template('query_result_span.html',
+                                   date=date_str[0],
+                                   queryResult=queryResult)
+        return render_template('query_result.html',
+                               date = date_str[0],
+                               queryResult=queryResult,
                                station_name_map = station_name_map)
     elif len(form.errors) > 0:
         for k, v in form.errors.items():
