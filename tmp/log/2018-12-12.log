@@ -260,7 +260,7 @@
  (logger.py:61)
 [2018-12-12 13:21:59,885][    INFO] --- 出参：{"result_message":"验证码校验成功","result_code":"4"} (logger.py:61)
 [2018-12-12 13:21:59,886][    INFO] --- url: /passport/web/login
-入参: {'username': u'b624345050', 'password': u'530530', 'appid': 'otn'}
+入参: {'username': u'b6243450ewe50', 'password': u'4567744', 'appid': 'otn'}
 请求方式: post
  (logger.py:61)
 [2018-12-12 13:22:01,105][    INFO] --- 出参：{"result_message":"登录成功","result_code":0,"uamtk":"yBM5nHc-YQYB4Gyr_HNEzmJVeSUDkxGiNiMhJAhub1b0"} (logger.py:61)
